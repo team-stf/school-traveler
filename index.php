@@ -87,7 +87,7 @@
                               <p class="name">名古屋駅</p><br>
                             </div>
                             <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/plane.svg">ひかり501号（約1時間30分）</p>
+                              <p><img style="width: 25px;" src="<?php echo get_template_directory_uri(); ?>/images/shinkansen.svg">ひかり501号（約1時間30分）</p>
                             </div>
                             <div class="to">
                               <p class="time">10:39</p>
@@ -321,7 +321,7 @@
                                    <p class="name">出発</p><br>
                                  </div>
                                  <div class="by">
-                                   <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">のぞみ040号（約1時間30分）</p>
+                                   <p><img style="width: 25px;"  src="<?php echo get_template_directory_uri(); ?>/images/shinkansen.svg">のぞみ040号（約1時間30分）</p>
                                  </div>
                                  <div class="to">
                                    <p class="time">18:13</p>

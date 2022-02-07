@@ -3,7 +3,53 @@
    <header id="header" style="z-index: 100;">
       <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg">
    </header>
-      <h1 style="width: 30%;" class="osirase"><img src="<?php echo get_template_directory_uri(); ?>/images/osirase.svg"></h1> 
+      <!-- お知らせStart -->
+      <style> 
+         .announce{
+            letter-spacing: 0em; //スタイル適応
+         }
+
+         .n-category{
+            font-size:15px
+         }
+         .n-title{
+            font-size:30px;
+         }
+         .entry-label {
+            display: inline-block;
+            border-radius: 3px;
+            padding: 1px 6px;
+            color: #fff;
+         }
+         .c-more{
+            color:blue;
+         }
+
+
+      </style>
+      <div class="announce">
+      <h1>お知らせ2</h1>
+         <hr>
+         <?php
+         if ( have_posts() ) :
+            while ( have_posts() ) : the_post(); ?>
+                  <!-- カテゴリー表示 --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
+                  <p class="n-title"><?php the_title() ?></h3>   <!-- タイトル表示 -->
+                  <?php the_content() ?>  <!-- 本文表示 -->
+                  <spawn>投稿日: <?php the_time('n月j日'); ?> @ <?php the_time('G:i'); ?> 
+                  <hr>
+                  
+            <?php endwhile; ?>
+            <a class="c-more" href="Creatingnow">もっとみる</a>
+         <?php
+         else :
+            echo '<p>お知らせはありません。</p>';
+
+         endif;
+         ?>
+         </div>
+
+      <!-- お知らせEND -->
       <div class="top-image">
          <!-- <img class="background" src="images/top1.png"> -->
          <!-- <img class="logo" src="./images/title.svg"> -->

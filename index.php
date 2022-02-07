@@ -105,32 +105,6 @@
                               <p class="name">シーサイドホテル舞子ビラ</p>
                             </div>
                           </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">16:00</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">17:30</p>
-                              <p class="name">読谷村</p>
-                            </div>
-                          </div>
-                          
-                          <div class="meal">
-                            <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">夕食</p>
-                          </div>
-                          
-                          <div class="event">
-                            <p class="time"></p>
-                            <p class="name">就寝</p>
-                          </div>
-                          
-                          
-                          
                               </div>
                             </article>
                         </p>
@@ -224,8 +198,8 @@
                         </div>
                      </details>
                   </section>
-                        <!--Day2-->
-                        <section class="day2">
+                        <!--Day3-->
+                        <section class="day3">
                            <details>
                               <summary>DAY3</summary>
                               <div class="answer">
@@ -255,22 +229,22 @@
                                     <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
                                   </div>
                                   <div class="to">
-                                    <p class="time">10:00</p>
-                                    <p class="name">大塚国際美術館</p>
+                                    <p class="time">11:00</p>
+                                    <p class="name">金刀比羅宮</p>
                                   </div>
                                 </div>
       
                                 <div class="transfer">
                                  <div class="from">
-                                   <p class="time">12:00</p>
+                                   <p class="time">11:00</p>
                                    <p class="name">出発</p><br>
                                  </div>
                                  <div class="by">
-                                   <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
+                                   <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（15分）</p>
                                  </div>
                                  <div class="to">
-                                   <p class="time">13:00</p>
-                                   <p class="name">中野うどん学校</p>
+                                   <p class="time">11:15</p>
+                                   <p class="name">ことかく</p>
                                  </div>
                                </div>
                                 
@@ -280,31 +254,45 @@
                                 
                                 <div class="transfer">
                                   <div class="from">
-                                    <p class="time">15:15</p>
+                                    <p class="time">12:00</p>
                                     <p class="name">出発</p><br>
                                   </div>
                                   <div class="by">
                                     <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
                                   </div>
                                   <div class="to">
-                                    <p class="time">16:00</p>
-                                    <p class="name">鷲羽山(展望台)</p>
+                                    <p class="time">13:15</p>
+                                    <p class="name">倉敷美術地区</p>
                                   </div>
                                 </div>
                                 
                                 <div class="transfer">
                                   <div class="from">
-                                    <p class="time">17:00</p>
+                                    <p class="time">15:45</p>
                                     <p class="name">出発</p><br>
                                   </div>
                                   <div class="by">
-                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（20分）</p>
+                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（0分）</p>
                                   </div>
                                   <div class="to">
-                                    <p class="time">17:45</p>
-                                    <p class="name">瀬戸内マリンホテル</p>
+                                    <p class="time">15:45</p>
+                                    <p class="name">岡山駅</p>
                                   </div>
                                 </div>
+
+                                <div class="transfer">
+                                 <div class="from">
+                                   <p class="time">16:37</p>
+                                   <p class="name">出発</p><br>
+                                 </div>
+                                 <div class="by">
+                                   <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">のぞみ040号（約1時間30分）</p>
+                                 </div>
+                                 <div class="to">
+                                   <p class="time">18:13</p>
+                                   <p class="name">名古屋駅</p>
+                                 </div>
+                               </div>
                                     </div>
                                   </article>
                               </p>
@@ -320,7 +308,7 @@
          <section class="bookmark">
             <div class="container">
                <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
-               <h1 class="book_mark">BOOKMARK</h1>
+               <h1 class="book_mark">TRAVELBOOKMARK</h1>
                <div class="content">
                   <div id="cards">
                      <div class="card">

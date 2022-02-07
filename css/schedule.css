@@ -186,7 +186,8 @@ summary {
 	width: 100%;
 	padding: 20px 70px 20px 30px;
 	cursor: pointer;
-	background-color: #64C9CF;
+	background-color: white;
+	font-family: "Haettenschweiler";
   }
   
   @media not all and (min-width: 768px){
@@ -201,7 +202,7 @@ summary {
   
   summary:hover,
   details[open] summary {
-	background-color: #64C9CF;
+	background-color: white;
   }
   
   summary::after {
@@ -277,10 +278,13 @@ article {
   .events .time {
 	width: 100%;
 	margin-right: 5px;
+	font-size: 85%;
+	color: #64C9CF;
   }
   
-  .events p.time {
-	font-weight: bold;
+  .events p.name {
+	  width: 100%;
+	  color: #072227;
   }
   
   .transfer .by{

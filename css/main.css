@@ -1,0 +1,261 @@
+@charset "utf-8";
+* {
+   box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* background-color: white; */
+    letter-spacing : 0.2em;
+    animation-name:fadeInAnime;
+    /* animation-duration:3.0s; */
+    animation-fill-mode:forwards;
+    opacity:0;
+ }
+
+ .osirase {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .top-image {
+    position: relative;
+  } */
+  .top-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../wordpress用/images/top.png);
+  }
+  
+  .top-image img.background {
+    width: 100%;
+    display: block;
+  }
+  
+  .top-image img.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 60%;
+  }
+  .top-image .douga{
+    border-radius: 20px;
+    border: 2px solid white;
+    display: block;
+    width: 86%;
+    margin: 0 calc(50% - 50vw);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 330px;
+}
+ /* .main-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/top.png);
+
+}.main-visual h1{
+    font-size: 2.5rem;
+    letter-spacing: 0.2em;
+    color: black;
+    line-height: 2.7em;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 30vh;
+    white-space: nowrap;
+    position: absolute;
+} */
+/* .main-visual .douga{
+    /* border-radius: 20px; 
+    position: absolute;
+    display: block;
+    width: 90%;
+    margin: 0 calc(50% - 50vw);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20vh;
+}
+.main-visual .slogan{
+    text-align: center;
+    position: absolute;
+    margin-top:10px;
+} */
+.movie_img{
+    width: 100%;
+}
+/* .movie .movie_title{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Kosugi', sans-serif;
+} */
+.movie .movie_logo{
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.movie .saisei{
+    position: absolute;
+    opacity: 80%;
+    width: 24%;
+    margin-top: 4.5vh;
+    margin-left: 15vh;
+    /* margin-left: auto; */
+}
+
+.movie .movie_title{
+    font-size: 140%;
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 img{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.movie .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:30px 30px;
+    background-color: white;
+    border-top: 5px solid #414042;
+}
+.main-visual .movie_logo{
+    width: 25%;
+    position: absolute;
+    margin-top: 10vh;
+}
+
+.movie .douga{
+    /* border-radius: 20px; */
+    /* border: 5px solid #548CFF; */
+    display: block;
+    width: 86%;
+    margin: 0 calc(50% - 50vw);
+    margin-right: auto;
+    margin-left: auto;
+}
+.schedule{
+    width:100%;
+}
+.schedule .time_table{
+    font-size: 120%;
+    margin-top: 30px;
+    text-align: center;
+}
+.schedule .schedule_logo{
+    width: 37%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.schedule_title{
+    font-size : 150%;
+    line-height : 1;
+    margin: 0 calc(50% - 50vw);
+    text-align: center;
+}
+
+
+.schedule_img{
+    width: 100%;
+}
+.schedule .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:10px 20px;
+    border-top: 5px solid #414042;
+    background-color: white;
+}
+
+.schedule .bookmark_title{
+    font-size : 150%;
+    line-height : 1;
+    margin: 0 calc(50% - 50vw);
+    text-align: center;
+}
+
+.bookmark .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:30px 20px;
+    border-top: 5px solid #414042;
+    background-color: white;
+}
+
+.bookmark .book_mark{
+    font-size: 120%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.bookmark .bookmark_logo{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .card:nth-child(2) {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+  .picture {
+      padding: 5px 0px 0px 0px;
+  }
+  .picture img {
+    width: 100%;
+  }
+
+
+
+  .description p {
+    font-size: 9px;
+    text-align: center;
+    color: black;
+  }
+
+
+.schedule .schedule1{
+    width: 100%;
+}
+
+.footer {
+    background: black;
+    padding: 30px;
+    text-align: center;
+}
+.footer .copyright{
+    text-align: center;
+    color: white;
+    font-size: 7px;
+    font-family: sans-serif;
+}

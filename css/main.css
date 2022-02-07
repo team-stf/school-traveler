@@ -111,20 +111,15 @@ h1 img{
     text-align: center;
 }
 
-
-.schedule_img{
-    width: 100%;
-}
 .schedule .container{
     max-width:1000px;
     margin:0px auto;
-    padding:100px 20px;
+    padding:130px 20px;
     border-top: 15px solid #414042;
-    /* background-color: transparent; */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/himejijou2.jpeg);
+    background-image: url(../images/himejijou3.png);
 }
 
 .schedule .bookmark_title{
@@ -137,7 +132,7 @@ h1 img{
 .bookmark .container{
     max-width:1000px;
     margin:0px auto;
-    padding:100px 20px;
+    padding:130px 20px;
     border-top: 15px solid #414042;
     /* background-color: white; */
     background-attachment: fixed;

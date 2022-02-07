@@ -56,17 +56,6 @@
          <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video>
        </div>
 
-<!-- <section class="movie">
-   <div class="container">
-      <h1 class="movie_title">MOVIE</h1>
-      <h1 class="movie_logo"><img src="images/movie_logo.png"></h1>
-      <div class="content">
-         <h1 class="saisei"><img src="images/movie_start.png"></h1>
-         <video class="douga" src="images/demo.mp4" autoplays muted></video>
-      </div>
-   </div>
-</section> -->
-
 
 
 <article class="top">

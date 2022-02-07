@@ -1,0 +1,2 @@
+# school-traveler
+SchoolTip WordPress

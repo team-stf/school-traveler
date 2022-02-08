@@ -34,9 +34,9 @@ body {
     background-size: cover;
     background-position: center;
     background-image: url(../wordpress用/images/top.png);
-}
-
-.top-image img.background {
+  }
+  
+  .top-image img.background {
     width: 100%;
     display: block;
   }
@@ -112,19 +112,19 @@ h1 img{
 }
 
 .schedule .container{
-    width: 100%;
-    height: 75vh;
+    max-width:1000px;
     margin:0px auto;
     padding:130px 20px;
     border-top: 15px solid #414042;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-image: url(../images/himejijou4.png);
 }
 
 .schedule .bookmark_title{
-    font-size: 150%;
-    line-height: 1;
+    font-size : 150%;
+    line-height : 1;
     margin: 0 calc(50% - 50vw);
     text-align: center;
 }
@@ -137,23 +137,9 @@ h1 img{
     /* background-color: white; */
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     background-image: url(../images/uzushio2.jpg);
 }
-
-.bookmark .container:before{
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    background-image: url(../images/uzushio2.jpg) center no-repeat;
-    background-size: cover;
-}
-
-
 
 .bookmark .book_mark{
     font-size: 120%;

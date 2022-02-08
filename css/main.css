@@ -114,11 +114,10 @@ h1 img{
     border-top: 15px solid #414042;
     background-attachment: fixed;
     /* position:fixed; */
-    position: -webkit-sticky; /* Safari */
     background-size: cover;
     background-image: url(../images/himejijou4.png);
 }
-body:before{
+.schedule .container:before{
     content: "";
     display: block;
     position: fixed;
@@ -133,8 +132,8 @@ body:before{
 
 
 .schedule .bookmark_title{
-    font-size : 150%;
-    line-height : 1;
+    font-size: 150%;
+    line-height: 1;
     margin: 0 calc(50% - 50vw);
     text-align: center;
 }

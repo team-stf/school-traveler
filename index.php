@@ -343,7 +343,7 @@
          <section class="bookmark">
             <div class="container">
                <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
-               <h1 class="book_mark">TRAVELBOOKMARK松田</h1>
+               <h1 class="book_mark">TRAVELBOOKMARK</h1>
                <div class="content">
                   <div id="cards">
                      <div class="card">

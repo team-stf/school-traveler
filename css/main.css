@@ -30,7 +30,6 @@ body {
     align-items: center;
     width: 100%;
     height: 90vh;
-    min-height: 90vh;
     position:fixed;
     /* background-attachment: fixed; */
     background-size: cover;
@@ -60,8 +59,8 @@ body {
     left: 0;
     margin: auto;
     width: 60%;
-  }
-  .top-image .douga{
+}
+.top-image .douga{
     border-radius: 20px;
     border: 2px solid white;
     display: block;

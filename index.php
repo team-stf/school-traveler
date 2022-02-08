@@ -28,7 +28,7 @@
 
       </style>
       <div class="announce">
-      <h1>お知らせ2</h1>
+      <h1>お知らせ</h1>
          <hr>
          <?php
          if ( have_posts() ) :

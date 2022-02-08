@@ -34,7 +34,6 @@ body {
     position:fixed;
     /* background-attachment: fixed; */
     background-size: cover;
-    background-position: center;
     background-image: url(../wordpress用/images/top.png);
   }
   
@@ -130,15 +129,12 @@ h1 img{
 .bookmark .container{
     width: 100%;
     height: 100vh;
-    margin:0px auto;
     padding:130px 20px;
     border-top: 15px solid #414042;
     /* background-color: white; */
     position:fixed;
     background-size: cover;
-    background-position: center;
     background-image: url(../images/uzushio2.jpg);
-    -webkit-appearance: none;
 }
 
 .bookmark .book_mark{

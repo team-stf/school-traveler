@@ -382,49 +382,49 @@
                <h1 class="book_mark">BOOKMARK</h1>
                <div class="content">
                   <div id="cards">
-                    <div class="card">
-                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
-                      <div class="description">
-                        <p>-注意事項-</p>
-                      </div>
-                    </div>
-                    <div class="card" id="card-center">
-                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
-                      <div class="description">
-                        <p>-飛行機-</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
-                      <div class="description">
-                        <p>-スケジュール-</p>
-                      </div>
-                    </div>
+                     <div class="card">
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="description">
+                         <p>-注意事項-</p>
+                       </div>
+                     </div>
+                     <div class="card" id="card-center">
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="description">
+                         <p>-飛行機-</p>
+                       </div>
+                     </div>
+                     <div class="card">
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="description">
+                         <p>-スケジュール-</p>
+                       </div>
+                     </div>
                   </div>
                   <div id="cards">
-                    <div class="card">
+                     <div class="card">
                         <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
                         <div class="description">
                           <p>-1日目-</p>
                         </div>
                       </div>
-                    <div class="card" id="card-center">
+                     <div class="card" id="card-center">
                         <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
                         <div class="description">
                           <p>-2日目-</p>
                         </div>
-                    </div>
-                    <div class="card">
+                     </div>
+                     <div class="card">
                         <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
                         <div class="description">
                           <p>-3日目-</p>
                         </div>
-                    </div>
+                     </div>
                   </div>
+               </div>
             </div>
-            </div>
-        </section>
+         </section>
       </div>
-  </div>
+   </div>
 </article>
 <?php get_footer(); ?>

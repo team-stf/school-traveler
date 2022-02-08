@@ -1,6 +1,6 @@
 @charset "utf-8";
 * {
-   box-sizing: border-box;
+box-sizing: border-box;
 }
 
 
@@ -14,9 +14,9 @@ body {
     /* animation-duration:3.0s; */
     animation-fill-mode:forwards;
     opacity:0;
- }
+}
 
- .osirase {
+.osirase {
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -47,12 +47,12 @@ body {
     background-image: url(../images/uzushio2.jpg);
 }
 
-  .top-image img.background {
+.top-image img.background {
     width: 100%;
     display: block;
-  }
-  
-  .top-image img.logo {
+}
+
+.top-image img.logo {
     position: absolute;
     top: 0;
     right: 0;

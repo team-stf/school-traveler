@@ -61,19 +61,19 @@
 <article class="top">
    <div class="wrap">
       <div class="inner">
-         <!--スケジュール-->
+        <!--スケジュール-->
             <selection class="schedule">
-               <div class="container">
+              <div class="container">
                   <h1 class="time_table">TIMETABLE</h1>
                   <!-- <h1 class="schedule_logo"><img src="images/schedule_logo.png"></h1> -->
                   <div class="content">
                         <!--Day1-->
                   <section class="day1">
-                     <details>
+                    <details>
                         <summary>DAY1</summary>
                         <div class="answer">
                         <p>
-                           <article>
+                          <article>
                               <div class="events">
                           
                                 <div class="event">
@@ -148,7 +148,7 @@
                   </section>
                         <!--Day2-->
                   <section class="day2">
-                     <details>
+                    <details>
                         <summary>DAY2</summary>
                         <div class="answer">
                         <p>
@@ -235,7 +235,7 @@
                   </section>
                         <!--Day3-->
                         <section class="day3">
-                           <details>
+                          <details>
                               <summary>DAY3</summary>
                               <div class="answer">
                               <p>
@@ -335,12 +335,12 @@
                            </details>
                         </section>
                   </div>
-               </div>
+              </div>
             </selection>
-         <!--// スケジュール -->
+        <!--// スケジュール -->
 
-         
-         <section class="bookmark">
+        
+        <section class="bookmark">
             <div class="container">
                <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
                <h1 class="book_mark">TRAVELBOOKMARK</h1>

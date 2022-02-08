@@ -30,8 +30,8 @@ body {
     align-items: center;
     width: 100%;
     height: 90vh;
-    position:fixed;
-    /* background-attachment: fixed; */
+    /* position:fixed; */
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-image: url(../wordpress用/images/top.png);
@@ -115,27 +115,15 @@ h1 img{
     text-align: center;
 }
 
-.example::before {
-    content:"";
-    display:block;
-    position:fixed;
-    top:0;
-    left:0;
-    z-index:-1;
-    background-image: url(./img/example.jpg);
-    position: fixed;
-}
-
 .schedule .container{
     width: 100%;
-    height: 100vh;
+    /* height: 75vh; */
     margin:0px auto;
     padding:130px 20px;
     border-top: 15px solid #414042;
-    /* background-attachment: fixed; */
-    position:fixed;
+    background-attachment: fixed;
+    /* position:fixed; */
     background-size: cover;
-    background-position: center;
     background-image: url(../images/himejijou4.png);
 }
 .schedule .container::before{
@@ -158,11 +146,12 @@ h1 img{
 
 .bookmark .container{
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     padding:130px 20px;
     border-top: 15px solid #414042;
     /* background-color: white; */
-    position:fixed;
+    /* position:fixed; */
+    background-attachment: fixed;
     background-size: cover;
     background-image: url(../images/uzushio2.jpg);
 }

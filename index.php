@@ -6,7 +6,7 @@
       <!-- お知らせStart -->
       <style> 
          .announce{
-            letter-spacing: 0em; //スタイル適応
+            letter-spacing: 0em; 
          }
 
          .n-category{

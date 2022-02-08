@@ -34,6 +34,7 @@ body {
     background-size: cover;
     background-position: center;
     background-image: url(../wordpress用/images/top.png);
+    -webkit-appearance: none;
   }
   
   .top-image img.background {
@@ -59,6 +60,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-top: 330px;
+    -webkit-appearance: none;
 }
 .movie_img{
     width: 100%;
@@ -68,13 +70,6 @@ h1 img{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-}
-.movie .container{
-    max-width:1000px;
-    margin:0px auto;
-    padding:30px 30px;
-    background-color: white;
-    border-top: 5px solid #414042;
 }
 .main-visual .movie_logo{
     width: 25%;
@@ -120,6 +115,7 @@ h1 img{
     background-size: cover;
     background-position: center;
     background-image: url(../images/himejijou4.png);
+    -webkit-appearance: none;
 }
 
 .schedule .bookmark_title{
@@ -139,6 +135,7 @@ h1 img{
     background-size: cover;
     background-position: center;
     background-image: url(../images/uzushio2.jpg);
+    -webkit-appearance: none;
 }
 
 .bookmark .book_mark{

@@ -1,0 +1,184 @@
+@charset "utf-8";
+* {
+   box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    letter-spacing : 0.2em;
+    animation-name:fadeInAnime;
+    animation-duration:5.0s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    z-index: -1;
+ }
+ .top-image img.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 60%;
+  }
+.movie_img{
+    width: 100%;
+}
+
+/* .announce {
+    letter-spacing: 0em;
+} */
+
+.top-image {
+    position: relative;
+    background-attachment: fixed;
+  }
+
+.top-image img.background {
+    width: 100%;
+    display: block;
+    background-attachment: fixed;
+  }
+ /* .wrap {
+    border: black solid 13px;
+ } */
+/* .inner{
+    max-width:1000px;
+    border-radius: 20px 20px 0px 0px;
+    margin:0px auto;
+    padding:30px 0px;
+    background-color: #FFF8F3;
+    z-index: 0;
+} */
+
+h1 img{
+    width: 100%;
+}
+.movie .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:20px 20px;
+    background-color: white;
+}
+.movie .movie_logo{
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* .movie .cradit{
+    position: relative;;
+    text-align:center;
+    font-size : 40%;
+    margin-bottom: 20px;
+    line-height : 1;
+} */
+.movie .douga{
+    border-radius: 20px;
+    display: block;
+    width: 90%;
+    margin: 0 calc(50% - 50vw);
+    margin-right: auto;
+    margin-left: auto;
+}
+.schedule{
+    width:100%;
+}
+.schedule .schedule_logo{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.schedule_title{
+    font-size : 150%;
+    line-height : 1;
+    margin: 0 calc(50% - 50vw);
+    text-align: center;
+}
+
+
+.schedule_img{
+    width: 100%;
+}
+.schedule .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:30px 20px;
+    border-top: 10px solid black;
+    /* background-color: #FFF8F3; */
+    background-image: url(../images/okinawa3.jpg);
+    background-size: cover;
+}
+
+.schedule .bookmark_title{
+    font-size : 150%;
+    line-height : 1;
+    margin: 0 calc(50% - 50vw);
+    text-align: center;
+}
+
+.bookmark .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:30px 20px;
+    border-top: 20px solid black;
+    /* background-color: #FFF8F3; */
+    background-image: url(../images/okinawa3.jpg);
+    background-size: cover;
+}
+
+
+.bookmark .bookmark_logo{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .card:nth-child(2) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .picture {
+      padding: 5px 0px 0px 0px;
+  }
+  .picture img {
+    width: 100%;
+  }
+
+
+
+  .description p {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+  }
+
+
+.schedule .schedule1{
+    width: 100%;
+}
+
+.footer {
+    background: black;
+    padding: 30px;
+    text-align: center;
+}
+.footer .copyright{
+    text-align: center;
+    color: white;
+    font-size: 7px;
+}

@@ -6,7 +6,7 @@
       <!-- お知らせStart -->
       <style> 
          .announce{
-            letter-spacing: 0em; 
+            letter-spacing: 0em; //スタイル適応
          }
 
          .n-category{
@@ -28,7 +28,7 @@
 
       </style>
       <div class="announce">
-      <h1>お知らせ</h1>
+      <h1>お知らせ2</h1>
          <hr>
          <?php
          if ( have_posts() ) :

@@ -40,12 +40,12 @@
       <h1>お知らせ</h1>
          <hr>
          <?php
-         if ( have_posts() ) :
-            while ( have_posts() ) : the_post(); ?>
+          query_posts('posts_per_page=1'); ?>
+               <?php if (have_posts()) : while (have_posts()) : the_post(); ?> 
                   <div class="naka">
-                    <!-- カテゴリー表示 --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
-                    <a href="<?php the_permalink(); ?>" id="title"><?php the_title(); ?></a>  <!-- タイトル表示 -->
-                    <a href="aa" id="title2">タップで詳細表示</a>
+                    <!-- カテゴリー --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
+                    <!-- タイトル --><a href="<?php the_permalink(); ?>" id="title"><?php the_title(); ?></a>  <!-- タイトル表示 -->
+                    <!-- 詳細表示 --><a href="aa" id="title2">タップで詳細表示</a>
                     <p>
                     <spawn>投稿日: <?php the_time('n月j日'); ?> @ <?php the_time('G:i'); ?> 
                     </p>
@@ -53,7 +53,7 @@
                   </div>
                   
             <?php endwhile; ?>
-            <a class="c-more" href="404">以前のお知らせ</a>
+            <a class="c-more" href="another">以前のお知らせ</a>
          <?php
          else :
             echo '<p>お知らせはありません。</p>';

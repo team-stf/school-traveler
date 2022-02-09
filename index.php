@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 <body>
-   <header id="header" style="z-index: 100;">
-      <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg">
-   </header>
       <!-- お知らせStart -->
       <style> 
          .announce{
@@ -24,20 +21,36 @@
          .c-more{
             color:blue;
          }
+        .naka{
+          padding:0px;
+        }
+        #title{
+          color:black;
+          font-size:30px;
+          text-decoration: underline
+        }
+        #title2{
+          color:black;
+          font-size:10px;
+        }
 
 
       </style>
       <div class="announce">
-      <h1>お知らせ2</h1>
+      <h1>お知らせ</h1>
          <hr>
          <?php
          if ( have_posts() ) :
             while ( have_posts() ) : the_post(); ?>
-                  <!-- カテゴリー表示 --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
-                  <p class="n-title"><?php the_title() ?></h3>   <!-- タイトル表示 -->
-                  <?php the_content() ?>  <!-- 本文表示 -->
-                  <spawn>投稿日: <?php the_time('n月j日'); ?> @ <?php the_time('G:i'); ?> 
+                  <div class="naka">
+                    <!-- カテゴリー表示 --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
+                    <a href="<?php the_permalink(); ?>" id="title"><?php the_title(); ?></a>  <!-- タイトル表示 -->
+                    <a href="aa" id="title2">タップで詳細表示</a>
+                    <p>
+                    <spawn>投稿日: <?php the_time('n月j日'); ?> @ <?php the_time('G:i'); ?> 
+                    </p>
                   <hr>
+                  </div>
                   
             <?php endwhile; ?>
             <a class="c-more" href="Creatingnow">もっとみる</a>
@@ -55,6 +68,17 @@
         <!-- <img class="logo" src="./images/title.svg"> -->
         <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video>
       </div>
+
+<!-- <section class="movie">
+   <div class="container">
+      <h1 class="movie_title">MOVIE</h1>
+      <h1 class="movie_logo"><img src="images/movie_logo.png"></h1>
+      <div class="content">
+         <h1 class="saisei"><img src="images/movie_start.png"></h1>
+         <video class="douga" src="images/demo.mp4" autoplays muted></video>
+      </div>
+   </div>
+</section> -->
 
 
 
@@ -87,7 +111,7 @@
                               <p class="name">名古屋駅</p><br>
                             </div>
                             <div class="by">
-                              <p><img style="width: 25px;" src="<?php echo get_template_directory_uri(); ?>/images/shinkansen.svg">ひかり501号<br>（約1時間30分）</p>
+                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/plane.svg">ひかり501号（約1時間30分）</p>
                             </div>
                             <div class="to">
                               <p class="time">10:39</p>
@@ -119,7 +143,7 @@
                               <p class="name">出発</p><br>
                             </div>
                             <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス<br>（1時間30分）</p>
+                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
                             </div>
                             <div class="to">
                               <p class="time">15:00</p>
@@ -140,6 +164,32 @@
                               <p class="name">シーサイドホテル舞子ビラ</p>
                             </div>
                           </div>
+                          
+                          <div class="transfer">
+                            <div class="from">
+                              <p class="time">16:00</p>
+                              <p class="name">出発</p><br>
+                            </div>
+                            <div class="by">
+                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
+                            </div>
+                            <div class="to">
+                              <p class="time">17:30</p>
+                              <p class="name">読谷村</p>
+                            </div>
+                          </div>
+                          
+                          <div class="meal">
+                            <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">夕食</p>
+                          </div>
+                          
+                          <div class="event">
+                            <p class="time"></p>
+                            <p class="name">就寝</p>
+                          </div>
+                          
+                          
+                          
                               </div>
                             </article>
                         </p>
@@ -236,6 +286,7 @@
                         <!--Day3-->
                         <section class="day3">
                           <details>
+
                               <summary>DAY3</summary>
                               <div class="answer">
                               <p>
@@ -247,7 +298,7 @@
                                     <p class="name">ホテル</p><br>
                                   </div>
                                   <div class="by">
-                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス<br>（1時間30分）</p>
+                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
                                   </div>
                                   <div class="to">
                                     <p class="time">09:30</p>
@@ -264,22 +315,22 @@
                                     <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
                                   </div>
                                   <div class="to">
-                                    <p class="time">11:00</p>
-                                    <p class="name">金刀比羅宮</p>
+                                    <p class="time">10:00</p>
+                                    <p class="name">大塚国際美術館</p>
                                   </div>
                                 </div>
       
                                 <div class="transfer">
                                  <div class="from">
-                                   <p class="time">11:00</p>
+                                   <p class="time">12:00</p>
                                    <p class="name">出発</p><br>
                                  </div>
                                  <div class="by">
-                                   <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（15分）</p>
+                                   <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
                                  </div>
                                  <div class="to">
-                                   <p class="time">11:15</p>
-                                   <p class="name">ことかく</p>
+                                   <p class="time">13:00</p>
+                                   <p class="name">中野うどん学校</p>
                                  </div>
                                </div>
                                 
@@ -289,45 +340,31 @@
                                 
                                 <div class="transfer">
                                   <div class="from">
-                                    <p class="time">12:00</p>
+                                    <p class="time">15:15</p>
                                     <p class="name">出発</p><br>
                                   </div>
                                   <div class="by">
                                     <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
                                   </div>
                                   <div class="to">
-                                    <p class="time">13:15</p>
-                                    <p class="name">倉敷美術地区</p>
+                                    <p class="time">16:00</p>
+                                    <p class="name">鷲羽山(展望台)</p>
                                   </div>
                                 </div>
                                 
                                 <div class="transfer">
                                   <div class="from">
-                                    <p class="time">15:45</p>
+                                    <p class="time">17:00</p>
                                     <p class="name">出発</p><br>
                                   </div>
                                   <div class="by">
-                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（0分）</p>
+                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（20分）</p>
                                   </div>
                                   <div class="to">
-                                    <p class="time">15:45</p>
-                                    <p class="name">岡山駅</p>
+                                    <p class="time">17:45</p>
+                                    <p class="name">瀬戸内マリンホテル</p>
                                   </div>
                                 </div>
-
-                                <div class="transfer">
-                                 <div class="from">
-                                   <p class="time">16:37</p>
-                                   <p class="name">出発</p><br>
-                                 </div>
-                                 <div class="by">
-                                   <p><img style="width: 25px;"  src="<?php echo get_template_directory_uri(); ?>/images/shinkansen.svg">のぞみ040号<br>（約1時間30分）</p>
-                                 </div>
-                                 <div class="to">
-                                   <p class="time">18:13</p>
-                                   <p class="name">名古屋駅</p>
-                                 </div>
-                               </div>
                                     </div>
                                   </article>
                               </p>
@@ -346,49 +383,49 @@
               <h1 class="book_mark">TRAVELBOOKMARK</h1>
               <div class="content">
                   <div id="cards">
-                    <div class="card">
-                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
-                      <div class="description">
-                        <p>-注意事項-</p>
-                      </div>
-                    </div>
-                    <div class="card" id="card-center">
-                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
-                      <div class="description">
-                        <p>-飛行機-</p>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
-                      <div class="description">
-                        <p>-スケジュール-</p>
-                      </div>
-                    </div>
+                     <div class="card">
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="description">
+                         <p>-注意事項-</p>
+                       </div>
+                     </div>
+                     <div class="card" id="card-center">
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="description">
+                         <p>-飛行機-</p>
+                       </div>
+                     </div>
+                     <div class="card">
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="description">
+                         <p>-スケジュール-</p>
+                       </div>
+                     </div>
                   </div>
                   <div id="cards">
-                    <div class="card">
+                     <div class="card">
                         <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
                         <div class="description">
                           <p>-1日目-</p>
                         </div>
                       </div>
-                    <div class="card" id="card-center">
+                     <div class="card" id="card-center">
                         <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
                         <div class="description">
                           <p>-2日目-</p>
                         </div>
-                    </div>
-                    <div class="card">
+                     </div>
+                     <div class="card">
                         <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
                         <div class="description">
                           <p>-3日目-</p>
                         </div>
-                    </div>
+                     </div>
                   </div>
+               </div>
             </div>
-            </div>
-        </section>
+         </section>
       </div>
-  </div>
+   </div>
 </article>
 <?php get_footer(); ?>

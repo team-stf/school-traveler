@@ -10,7 +10,8 @@
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/schedule.css">
-
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/loader.css">
+   
    <link href='https://fonts.googleapis.com/css?family=Kosugi' rel="stylesheet">
    
 
@@ -72,8 +73,18 @@
        $("body").css("margin-top", height + 7);//10pxだけ余裕をもたせる
    });
    </script>
+   <script>
+      $(window).on('load',function(){
+ $("#loader-bg").delay(1000).fadeOut('slow');
+ //ローディング画面を3秒（3000ms）待機してからフェードアウト
+});
+   </script>
 
 
 <!-- headue -->
    <?php wp_head(); ?>
 </head>
+
+<header>
+   <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg">
+</header>

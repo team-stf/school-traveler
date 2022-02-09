@@ -11,13 +11,16 @@
     z-index: 1000;
     text-align:center;
 }
-#loader-bg .power{
-    
+#loader-bg p{
+    font-size: 2%;
+    position: relative;
+    right: 3vh;
+    top: 31vh;    
 }
 #loader-bg .logo-load{
     width: 40%;
     position: relative;
-    top: 290px;    
+    top: 31vh;    
 }
 /*ここからコピーしてきたCSSになりますが、loader-bgで囲っているので先頭に#loader-bgを付け足しています*/
 #loader-bg .bouncingLoader {    

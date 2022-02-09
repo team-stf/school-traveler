@@ -47,7 +47,7 @@
                     <!-- タイトル --><a href="<?php the_permalink(); ?>" id="title"><?php the_title(); ?></a>  <!-- タイトル表示 -->
                     <!-- 詳細表示 --><a href="<?php the_permalink(); ?>" id="title2">タップで詳細表示</a>
                     <p>
-                    <spawn>投稿日: <?php the_time('n月j日'); ?> @ <?php the_time('G:i'); ?> 
+                    <?php the_time('n月j日'); ?> <?php the_time('G:i'); ?> 
                     </p>
                   <hr>
                   </div>

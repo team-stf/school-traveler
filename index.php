@@ -45,9 +45,9 @@
                   <div class="naka">
                     <!-- カテゴリー --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
                     <!-- タイトル --><a href="<?php the_permalink(); ?>" id="title"><?php the_title(); ?></a>  <!-- タイトル表示 -->
-                    <!-- 詳細表示 --><a href="<?php the_permalink(); ?>" id="title2">タップで詳細表示</a>
+                    <!-- 詳細表示 --><a href="aa" id="title2">タップで詳細表示</a>
                     <p>
-                    <?php the_time('n月j日'); ?> <?php the_time('G:i'); ?> 
+                    <spawn>投稿日: <?php the_time('n月j日'); ?> @ <?php the_time('G:i'); ?> 
                     </p>
                   <hr>
                   </div>
@@ -64,10 +64,10 @@
 
       <!-- お知らせEND -->
       <div class="top-image">
-         <!-- <img class="background" src="images/top1.png"> -->
-         <!-- <img class="logo" src="./images/title.svg"> -->
-         <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video>
-       </div>
+        <!-- <img class="background" src="images/top1.png"> -->
+        <!-- <img class="logo" src="./images/title.svg"> -->
+        <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video>
+      </div>
 
 <!-- <section class="movie">
    <div class="container">
@@ -83,7 +83,7 @@
 
 
 <article class="top">
-   <div class="wrap">
+  <div class="wrap">
       <div class="inner">
         <!--スケジュール-->
             <selection class="schedule">
@@ -164,21 +164,7 @@
                               <p class="name">シーサイドホテル舞子ビラ</p>
                             </div>
                           </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">16:00</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">17:30</p>
-                              <p class="name">読谷村</p>
-                            </div>
-                          </div>
-                          
+                      
                           <div class="meal">
                             <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">夕食</p>
                           </div>
@@ -194,7 +180,7 @@
                             </article>
                         </p>
                         </div>
-                     </details>
+                    </details>
                   </section>
                         <!--Day2-->
                   <section class="day2">
@@ -202,7 +188,7 @@
                         <summary>DAY2</summary>
                         <div class="answer">
                         <p>
-                           <article>
+                          <article>
                               <div class="events">
                                 <div class="transfer">
                             <div class="from">
@@ -233,18 +219,18 @@
                           </div>
 
                           <div class="transfer">
-                           <div class="from">
-                             <p class="time">12:00</p>
-                             <p class="name">出発</p><br>
-                           </div>
-                           <div class="by">
-                             <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
-                           </div>
-                           <div class="to">
-                             <p class="time">13:00</p>
-                             <p class="name">中野うどん学校</p>
-                           </div>
-                         </div>
+                            <div class="from">
+                              <p class="time">12:00</p>
+                              <p class="name">出発</p><br>
+                            </div>
+                            <div class="by">
+                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
+                            </div>
+                            <div class="to">
+                              <p class="time">13:00</p>
+                              <p class="name">中野うどん学校</p>
+                            </div>
+                          </div>
                           
                           <div class="meal">
                             <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">昼食・体験</p>
@@ -281,7 +267,7 @@
                             </article>
                         </p>
                         </div>
-                     </details>
+                    </details>
                   </section>
                         <!--Day3-->
                         <section class="day3">
@@ -379,9 +365,9 @@
         
         <section class="bookmark">
             <div class="container">
-               <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
-               <h1 class="book_mark">BOOKMARK</h1>
-               <div class="content">
+              <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
+              <h1 class="book_mark">TRAVELBOOKMARK</h1>
+              <div class="content">
                   <div id="cards">
                      <div class="card">
                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>

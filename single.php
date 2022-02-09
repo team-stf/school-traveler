@@ -15,7 +15,8 @@
 
 
 
-      </div>
+<?php get_header(); ?>
+
 
       <div class="main">
           <!--タイトルa-->          
@@ -34,5 +35,6 @@
         </div>
     </article>
   </div>
-</div>
+</article>
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="return">戻る</a>
 <?php endif; ?>

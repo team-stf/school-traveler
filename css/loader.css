@@ -11,9 +11,12 @@
     z-index: 1000;
 }
 
-.loader-bg img{
-    width: 50%;
-    text-align: center;
+.logo-load{
+    width: 40%;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 /*ここからコピーしてきたCSSになりますが、loader-bgで囲っているので先頭に#loader-bgを付け足しています*/
 #loader-bg .bouncingLoader {    

@@ -40,7 +40,7 @@ body {
     border-radius: 20px;
     border: 2px solid white;
     display: block;
-    max-width: 2%;
+    max-width: 70%;
     margin: 0 calc(50% - 50vw);
     margin-right: auto;
     margin-left: auto;

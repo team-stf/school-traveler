@@ -9,14 +9,15 @@
     top: 0px;
     left: 0px;
     z-index: 1000;
+    text-align:center;
 }
-
-.logo-load{
+#loader-bg .power{
+    
+}
+#loader-bg .logo-load{
     width: 40%;
     position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    
+    top: 290px;    
 }
 /*ここからコピーしてきたCSSになりますが、loader-bgで囲っているので先頭に#loader-bgを付け足しています*/
 #loader-bg .bouncingLoader {    

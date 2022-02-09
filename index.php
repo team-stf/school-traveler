@@ -80,6 +80,7 @@
    </div>
 </section> -->
 <div id="loader-bg">
+  <h1 class="power">Powered by</h1>
   <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/w-amidc.png"></p>
   <div class="bouncingLoader"><div></div></div>
 </div>

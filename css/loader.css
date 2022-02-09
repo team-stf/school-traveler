@@ -1,4 +1,12 @@
+#loader-bg .is-active {
+    opacity: 0;
+    visibility: hidden;
+  }
 
+.loading-animation.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
 
 /*画面全体をloader-bgで覆い隠すため背景色をひいてposition: fixed;で浮かせた状態にします*/
 #loader-bg {

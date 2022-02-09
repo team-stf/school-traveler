@@ -164,21 +164,7 @@
                               <p class="name">シーサイドホテル舞子ビラ</p>
                             </div>
                           </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">16:00</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">17:30</p>
-                              <p class="name">読谷村</p>
-                            </div>
-                          </div>
-                          
+                      
                           <div class="meal">
                             <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">夕食</p>
                           </div>

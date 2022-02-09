@@ -1,0 +1,61 @@
+
+
+/*画面全体をloader-bgで覆い隠すため背景色をひいてposition: fixed;で浮かせた状態にします*/
+#loader-bg {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.loader-bg img{
+    width: 50%;
+    text-align: center;
+}
+/*ここからコピーしてきたCSSになりますが、loader-bgで囲っているので先頭に#loader-bgを付け足しています*/
+#loader-bg .bouncingLoader {    
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.bouncingLoader > div, .bouncingLoader:before, .bouncingLoader:after {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: black;
+    margin-bottom: -5px;
+    border-radius: 50%;
+    animation: bouncing-loader 0.6s infinite alternate;
+}
+ 
+.bouncingLoader > div, .bouncingLoader:before, .bouncingLoader:after {
+    content: "";
+}
+ 
+.bouncingLoader > div {
+    margin: 0 5px;
+}
+ 
+.bouncingLoader > div {
+    animation-delay: 0.2s;
+}
+ 
+.bouncingLoader:after {
+    animation-delay: 0.4s;
+}
+ 
+/*3つの円が上下に動くためのアニメーション*/
+@keyframes bouncing-loader {
+    to {
+        opacity: 0.1;
+        transform: translate3d(0, -16px, 0);
+    }
+}

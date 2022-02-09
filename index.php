@@ -37,7 +37,7 @@
 
       </style>
       <div class="announce">
-      <h1>お知らせ</h1>
+      <h1 style="text-align: center;">お知らせ</h1>
          <hr>
          <?php
          if ( have_posts() ) :
@@ -79,6 +79,9 @@
       </div>
    </div>
 </section> -->
+<div id="loader-bg">
+  <div class="bouncingLoader"><div></div></div>
+</div>
 
 
 

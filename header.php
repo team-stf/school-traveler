@@ -73,12 +73,38 @@
        $("body").css("margin-top", height + 7);//10pxだけ余裕をもたせる
    });
    </script>
+
+
    <script>
       $(window).on('load',function(){
  $("#loader-bg").delay(1000).fadeOut('slow');
  //ローディング画面を3秒（3000ms）待機してからフェードアウト
 });
    </script>
+
+   <!-- <script>
+$(function () {
+  var webStorage = function () {
+    if (sessionStorage.getItem('access')) {
+      /*
+        2回目以降アクセス時の処理
+      */
+      $(".loader-bg").addClass('is-active');
+    } else {
+      /*
+        初回アクセス時の処理
+      */
+      sessionStorage.setItem('access', 'true'); // sessionStorageにデータを保存
+      $(".loading-animation").addClass('is-active'); // loadingアニメーションを表示
+      $(window).on('load',function(){
+ $("#loader-bg").delay(1000).fadeOut('slow');
+ //ローディング画面を3秒（3000ms）待機してからフェードアウト
+});
+    }
+  }
+  webStorage();
+});
+   </script> -->
 
 
 <!-- headue -->

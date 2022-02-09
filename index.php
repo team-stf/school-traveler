@@ -80,9 +80,11 @@
    </div>
 </section> -->
 <div id="loader-bg">
-  <p class="power">Powered by</p>
-  <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/w-amidc.png"></p>
-  <div class="bouncingLoader"><div></div></div>
+  <div class="loading-animation">
+    <p class="power">Powered by</p>
+    <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/w-amidc.png"></p>
+    <div class="bouncingLoader"><div></div></div>
+  </div>
 </div>
 
 
@@ -99,7 +101,7 @@
                         <!--Day1-->
                   <section class="day1">
                     <details>
-                        <summary>DAY1</summary>
+                        <summary><p class="day-title">DAY1</p></summary>
                         <div class="answer">
                         <p>
                           <article>
@@ -190,7 +192,7 @@
                         <!--Day2-->
                   <section class="day2">
                     <details>
-                        <summary>DAY2</summary>
+                        <summary><p class="day-title">DAY2</p></summary>
                         <div class="answer">
                         <p>
                           <article>
@@ -278,10 +280,10 @@
                         <section class="day3">
                           <details>
 
-                              <summary>DAY3</summary>
+                              <summary><p class="day-title">DAY3</p></summary>
                               <div class="answer">
                               <p>
-                                 <article>
+                                <article>
                                     <div class="events">
                                       <div class="transfer">
                                   <div class="from">
@@ -397,7 +399,7 @@
                        </div>
                      </div>
                      <div class="card" id="card-center">
-                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
                        <div class="description">
                          <p>-飛行機-</p>
                        </div>
@@ -411,19 +413,19 @@
                   </div>
                   <div id="cards">
                      <div class="card">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/1.png" alt=""></a></div>
                         <div class="description">
                           <p>-1日目-</p>
                         </div>
                       </div>
                      <div class="card" id="card-center">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/2.png" alt=""></a></div>
                         <div class="description">
                           <p>-2日目-</p>
                         </div>
                      </div>
                      <div class="card">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/3.png" alt=""></a></div>
                         <div class="description">
                           <p>-3日目-</p>
                         </div>

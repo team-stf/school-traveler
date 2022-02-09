@@ -49,6 +49,10 @@ body {
 .schedule{
     width:100%;
 }
+.schedule .day-title{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 
 
@@ -114,7 +118,6 @@ body {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-
 }
 
 .card {

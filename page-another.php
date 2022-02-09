@@ -50,7 +50,7 @@ foreach( $myposts as $post ) {
     <div class="naka">
         <!-- カテゴリー --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
         <!-- タイトル --><a href="<?php the_permalink(); ?>" id="title"><?php the_title(); ?></a>  <!-- タイトル表示 -->
-        <!-- 詳細表示 --><a href="aa" id="title2">タップで詳細表示</a>
+        <!-- 詳細表示 --><a href="<?php the_permalink(); ?>" id="title2">タップで詳細表示</a>
         <p>
         <spawn>投稿日: <?php the_time('n月j日'); ?> @ <?php the_time('G:i'); ?> 
         </p>

@@ -18,7 +18,7 @@
       </div>
 
       <div class="main">
-          <!--タイトル-->          
+          <!--タイトルa-->          
           <h5><?php the_title(); ?></h5>
                   <!--投稿日を取得-->
         <span class="article-date">

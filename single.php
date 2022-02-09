@@ -52,5 +52,5 @@
   <?php the_content(); ?>
   </div>
 </article>
-<a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="return">戻る</a>
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="return">ホーム</a>
 <?php endif; ?>

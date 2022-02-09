@@ -53,7 +53,7 @@
                   </div>
                   
             <?php endwhile; ?>
-            <a class="c-more" href="Creatingnow">もっとみる</a>
+            <a class="c-more" href="404">以前のお知らせ</a>
          <?php
          else :
             echo '<p>お知らせはありません。</p>';

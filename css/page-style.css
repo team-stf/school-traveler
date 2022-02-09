@@ -1,0 +1,108 @@
+@charset "utf-8";
+* {
+   box-sizing: border-box;
+}
+
+.schedule .time_table{
+    font-size: 120%;
+    margin-top: 30px;
+    text-align: center;
+}
+.schedule .schedule_logo{
+    width: 37%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.schedule_title{
+    font-size : 150%;
+    line-height : 1;
+    margin: 0 calc(50% - 50vw);
+    text-align: center;
+}
+
+.schedule .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:130px 20px;
+    border-top: 15px solid #414042;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/himejijou4.png);
+}
+
+.schedule .bookmark_title{
+    font-size : 150%;
+    line-height : 1;
+    margin: 0 calc(50% - 50vw);
+    text-align: center;
+}
+
+.bookmark .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:130px 20px;
+    border-top: 15px solid #414042;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/uzushio2.jpg);
+}
+
+.bookmark .book_mark{
+    font-size: 120%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.bookmark .bookmark_logo{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+
+  }
+
+  .card {
+    width: 30%;
+  }
+
+  .card:nth-child(2) {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+  .picture {
+      padding: 5px 0px 0px 0px;
+  }
+  .picture img {
+    width: 100%;
+  }
+
+
+
+  .description p {
+    font-size: 9px;
+    text-align: center;
+    color: white;
+}
+
+
+.schedule .schedule1{
+    width: 100%;
+}
+
+.footer {
+    background: black;
+    padding: 30px;
+    text-align: center;
+}
+.footer .copyright{
+    text-align: center;
+    color: white;
+    font-size: 7px;
+    font-family: sans-serif;
+}

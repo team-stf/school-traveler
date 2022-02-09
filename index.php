@@ -51,15 +51,15 @@
 
       <!-- お知らせEND -->
       <div class="top-image">
-         <!-- <img class="background" src="images/top1.png"> -->
-         <!-- <img class="logo" src="./images/title.svg"> -->
-         <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video>
-       </div>
+        <!-- <img class="background" src="images/top1.png"> -->
+        <!-- <img class="logo" src="./images/title.svg"> -->
+        <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video>
+      </div>
 
 
 
 <article class="top">
-   <div class="wrap">
+  <div class="wrap">
       <div class="inner">
         <!--スケジュール-->
             <selection class="schedule">
@@ -144,7 +144,7 @@
                             </article>
                         </p>
                         </div>
-                     </details>
+                    </details>
                   </section>
                         <!--Day2-->
                   <section class="day2">
@@ -152,7 +152,7 @@
                         <summary>DAY2</summary>
                         <div class="answer">
                         <p>
-                           <article>
+                          <article>
                               <div class="events">
                                 <div class="transfer">
                             <div class="from">
@@ -183,18 +183,18 @@
                           </div>
 
                           <div class="transfer">
-                           <div class="from">
-                             <p class="time">12:00</p>
-                             <p class="name">出発</p><br>
-                           </div>
-                           <div class="by">
-                             <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
-                           </div>
-                           <div class="to">
-                             <p class="time">13:00</p>
-                             <p class="name">中野うどん学校</p>
-                           </div>
-                         </div>
+                            <div class="from">
+                              <p class="time">12:00</p>
+                              <p class="name">出発</p><br>
+                            </div>
+                            <div class="by">
+                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
+                            </div>
+                            <div class="to">
+                              <p class="time">13:00</p>
+                              <p class="name">中野うどん学校</p>
+                            </div>
+                          </div>
                           
                           <div class="meal">
                             <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">昼食・体験</p>
@@ -231,7 +231,7 @@
                             </article>
                         </p>
                         </div>
-                     </details>
+                    </details>
                   </section>
                         <!--Day3-->
                         <section class="day3">
@@ -342,9 +342,9 @@
         
         <section class="bookmark">
             <div class="container">
-               <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
-               <h1 class="book_mark">TRAVELBOOKMARK</h1>
-               <div class="content">
+              <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
+              <h1 class="book_mark">TRAVELBOOKMARK</h1>
+              <div class="content">
                   <div id="cards">
                     <div class="card">
                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>

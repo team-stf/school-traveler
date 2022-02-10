@@ -28,12 +28,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 85vh;
     min-height: 80vh;
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
-    background-image: url(../wordpress用/images/top.png);
+    background-image: url(../images/topimage.jpg);
 
 }
 .top-image .douga{
@@ -45,6 +45,18 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-top: 330px;
+}
+
+.movie .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:20px 20px;
+    text-align: center;
+    background-color: #414042;
+}
+
+.movie .douga{
+    width: 70%;
 }
 .schedule{
     width:100%;
@@ -78,7 +90,7 @@ body {
     max-width:1000px;
     margin:0px auto;
     padding:130px 20px;
-    border-top: 15px solid #414042;
+    /* border-top: 15px solid #414042; */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

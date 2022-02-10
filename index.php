@@ -81,7 +81,7 @@
 </section> -->
 <div id="loader-bg">
   <div class="loading-animation">
-    <p class="power">Powered by</p>
+    <p class="power">Created by</p>
     <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/w-amidc.png"></p>
     <div class="bouncingLoader"><div></div></div>
   </div>
@@ -269,6 +269,11 @@
                               <p class="time">17:45</p>
                               <p class="name">瀬戸内マリンホテル</p>
                             </div>
+                          </div>
+
+                          <div class="event">
+                            <p class="time"></p>
+                            <p class="name">就寝</p>
                           </div>
                               </div>
                             </article>

@@ -75,12 +75,12 @@
    </script> -->
 
 
-   <script>
+   <!-- <script>
       $(window).on('load',function(){
  $("#loader-bg").delay(1000).fadeOut('slow');
  //ローディング画面を3秒（3000ms）待機してからフェードアウト
 });
-   </script>
+   </script> -->
 
    <script>
 $(function () {
@@ -92,7 +92,7 @@ $(function () {
       $("#loader-bg").addClass('is-active');
     } else {
       $(window).on('load',function(){
- $("#loader-bg").delay(1000).fadeOut('slow');
+ $("#loader-bg").delay(300).fadeOut('slow');
  //ローディング画面を3秒（3000ms）待機してからフェードアウト
 });
     }

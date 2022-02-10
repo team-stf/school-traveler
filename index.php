@@ -3,7 +3,6 @@
       <!-- お知らせStart -->
       <style> 
 
-
       </style>
       <div style="background-color: white;" class="announce">
       <h1 style="text-align: center;">お知らせ</h1>

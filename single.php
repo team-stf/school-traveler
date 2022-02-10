@@ -17,13 +17,18 @@
       margin-bottom: 0rem;
       font-size:1.2rem;
     }
+    .container-fluid {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 750px;
+    }
 	</style>
 <body>
 
 
 
     <?php if(have_posts()): the_post(); ?>
-    <div class="container">
+    <div class="container-fluid">
       <div class="main">
       <div class="article-info">
         <?php if(has_category() ): ?>

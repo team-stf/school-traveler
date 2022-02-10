@@ -394,6 +394,27 @@
               <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
               <h1 class="book_mark">TRAVELBOOKMARK</h1>
               <div class="content">
+              <div id="cards">
+                     <div class="card">
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/1.png" alt=""></a></div>
+                        <div class="description">
+                          <p>-1日目-</p>
+                        </div>
+                      </div>
+                     <div class="card" id="card-center">
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/1.png" alt=""></a></div>
+                        <div class="description">
+                          <p>-2日目-</p>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/1.png" alt=""></a></div>
+                        <div class="description">
+                          <p>-3日目-</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
                   <div id="cards">
                      <div class="card">
                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
@@ -402,39 +423,19 @@
                        </div>
                      </div>
                      <div class="card" id="card-center">
-                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/部屋割り/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/部屋割り/1.png" alt=""></a></div>
                        <div class="description">
-                         <p>-飛行機-</p>
+                         <p>-部屋割り-</p>
                        </div>
                      </div>
                      <div class="card">
-                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/slick_custom_ver2.0/comic/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/その他/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/その他/1.png" alt=""></a></div>
                        <div class="description">
-                         <p>-スケジュール-</p>
+                         <p>-その他-</p>
                        </div>
                      </div>
                   </div>
-                  <div id="cards">
-                     <div class="card">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/1.png" alt=""></a></div>
-                        <div class="description">
-                          <p>-1日目-</p>
-                        </div>
-                      </div>
-                     <div class="card" id="card-center">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/2.png" alt=""></a></div>
-                        <div class="description">
-                          <p>-2日目-</p>
-                        </div>
-                     </div>
-                     <div class="card">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/3.png" alt=""></a></div>
-                        <div class="description">
-                          <p>-3日目-</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+
             </div>
          </section>
       </div>

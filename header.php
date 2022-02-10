@@ -112,5 +112,5 @@ $(function () {
 </head>
 
 <header>
-   <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg">
+   <a href="/wp01"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg"></a>
 </header>

@@ -66,19 +66,16 @@
       <div class="top-image">
         <!-- <img class="background" src="images/top1.png"> -->
         <!-- <img class="logo" src="./images/title.svg"> -->
-        <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video>
+        <!-- <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video> -->
       </div>
 
-<!-- <section class="movie">
+<section class="movie">
    <div class="container">
-      <h1 class="movie_title">MOVIE</h1>
-      <h1 class="movie_logo"><img src="images/movie_logo.png"></h1>
       <div class="content">
-         <h1 class="saisei"><img src="images/movie_start.png"></h1>
-         <video class="douga" src="images/demo.mp4" autoplays muted></video>
+         <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video>
       </div>
    </div>
-</section> -->
+</section>
 <div id="loader-bg">
   <div class="loading-animation">
     <p class="power">Created by</p>

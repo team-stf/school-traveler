@@ -40,12 +40,12 @@
       <h1 style="text-align: center;">お知らせ</h1>
          <hr>
          <?php
-         if ( have_posts() ) :
-            while ( have_posts() ) : the_post(); ?>
+          query_posts('posts_per_page=1'); ?>
+               <?php if (have_posts()) : while (have_posts()) : the_post(); ?> 
                   <div class="naka">
-                    <!-- カテゴリー表示 --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
-                    <a href="<?php the_permalink(); ?>" id="title"><?php the_title(); ?></a>  <!-- タイトル表示 -->
-                    <a href="aa" id="title2">タップで詳細表示</a>
+                    <!-- カテゴリー --> <?php $this_categories = get_the_category();if ( $this_categories ) {$this_category_color = get_field( 'color', 'category_' . $this_categories[0]->term_id );$this_category_name  = $this_categories[0]->name; echo '<span class="entry-label" style="' . esc_attr( 'background:' . $this_category_color ) . ';">' . esc_html( $this_category_name ) . '</span>';}?>
+                    <!-- タイトル --><a href="<?php the_permalink(); ?>" id="title"><?php the_title(); ?></a>  <!-- タイトル表示 -->
+                    <!-- 詳細表示 --><a href="aa" id="title2">タップで詳細表示</a>
                     <p>
                     <spawn>投稿日: <?php the_time('n月j日'); ?> @ <?php the_time('G:i'); ?> 
                     </p>
@@ -53,7 +53,7 @@
                   </div>
                   
             <?php endwhile; ?>
-            <a class="c-more" href="Creatingnow">もっとみる</a>
+            <a class="c-more" href="another">以前のお知らせ</a>
          <?php
          else :
             echo '<p>お知らせはありません。</p>';
@@ -70,7 +70,7 @@
       </div>
       <div id="loader-bg">
   <div class="loading-animation">
-    <p class="power">Powered by</p>
+    <p class="power">Created by</p>
     <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/w-amidc.png"></p>
     <div class="bouncingLoader"><div></div></div>
   </div>
@@ -86,6 +86,66 @@
 </section>
 
 
+
+                          <div class="transfer">
+                            <div class="from">
+                              <p class="time">12:00</p>
+                              <p class="name">出発</p><br>
+                            </div>
+                            <div class="by">
+                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
+                            </div>
+                            <div class="to">
+                              <p class="time">13:00</p>
+                              <p class="name">中野うどん学校</p>
+                            </div>
+                          </div>
+                          
+                          <div class="meal">
+                            <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">昼食・体験</p>
+                          </div>
+                          
+                          <div class="transfer">
+                            <div class="from">
+                              <p class="time">15:15</p>
+                              <p class="name">出発</p><br>
+                            </div>
+                            <div class="by">
+                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
+                            </div>
+                            <div class="to">
+                              <p class="time">16:00</p>
+                              <p class="name">鷲羽山(展望台)</p>
+                            </div>
+                          </div>
+                          
+                          <div class="transfer">
+                            <div class="from">
+                              <p class="time">17:00</p>
+                              <p class="name">出発</p><br>
+                            </div>
+                            <div class="by">
+                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（20分）</p>
+                            </div>
+                            <div class="to">
+                              <p class="time">17:45</p>
+                              <p class="name">瀬戸内マリンホテル</p>
+                            </div>
+                          </div>
+
+                          <div class="event">
+                            <p class="time"></p>
+                            <p class="name">就寝</p>
+                          </div>
+                              </div>
+                            </article>
+                        </p>
+                        </div>
+                    </details>
+                  </section>
+                        <!--Day3-->
+                        <section class="day3">
+                          <details>
 
 
 

@@ -112,5 +112,5 @@ $(function () {
 </head>
 
 <header>
-   <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg">
+   <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg"></a>
 </header>

@@ -2,41 +2,8 @@
 <body>
       <!-- お知らせStart -->
       <style> 
-         .announce{
-            letter-spacing: 0em; //スタイル適応
-         }
-
-         .n-category{
-            font-size:15px
-         }
-         .n-title{
-            font-size:30px;
-         }
-         .entry-label {
-            display: inline-block;
-            border-radius: 3px;
-            padding: 1px 6px;
-            color: #fff;
-         }
-         .c-more{
-            color:blue;
-         }
-        .naka{
-          padding:0px;
-        }
-        #title{
-          color:black;
-          font-size:20px;
-          text-decoration: underline
-        }
-        #title2{
-          color:black;
-          font-size:10px;
-        }
-
-
       </style>
-      <div class="announce">
+      <div style="background-color: white;" class="announce">
       <h1 style="text-align: center;">お知らせ</h1>
          <hr>
          <?php

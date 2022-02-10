@@ -70,17 +70,17 @@ body {
 
 
 .schedule .time_table{
-    font-size: 120%;
-    margin-top: 30px;
+    font-size: 150%;
+    position: relative;
+    margin-bottom: 12vh;
     text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    border-bottom: 1px solid #414042;
+    padding-bottom: 3px;
 }
-.schedule .schedule_logo{
-    width: 37%;
-    margin-right: auto;
-    margin-left: auto;
-}
-.schedule_title{
-    font-size : 150%;
+
+.schedule .schedule_title{
+    font-size : 120%;
     line-height : 1;
     margin: 0 calc(50% - 50vw);
     text-align: center;
@@ -89,7 +89,7 @@ body {
 .schedule .container{
     max-width:1000px;
     margin:0px auto;
-    padding:130px 20px;
+    padding:25vh 20px;
     /* border-top: 15px solid #414042; */
     background-attachment: fixed;
     background-size: cover;
@@ -107,7 +107,7 @@ body {
 .bookmark .container{
     max-width:1000px;
     margin:0px auto;
-    padding:130px 20px;
+    padding:25vh 20px;
     border-top: 15px solid #414042;
     /* background-attachment: fixed; */
     background-size: cover;
@@ -116,9 +116,13 @@ body {
 }
 
 .bookmark .book_mark{
-    font-size: 120%;
-    margin-bottom: 30px;
+    font-size: 150%;
+    position: relative;
+    margin-bottom: 12vh;
     text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    border-bottom: 1px solid #414042;
+    padding-bottom: 3px;
 }
 .bookmark .bookmark_logo{
     width: 40%;
@@ -150,9 +154,9 @@ body {
 
 
 .description p {
-    font-size: 9px;
+    font-size: 12px;
     text-align: center;
-    color: white;
+    color: #414042;
 }
 
 

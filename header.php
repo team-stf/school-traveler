@@ -111,6 +111,6 @@ $(function () {
    <?php wp_head(); ?>
 </head>
 
-<header>
+<header style="z-index: 100;">
    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg"></a>
 </header>

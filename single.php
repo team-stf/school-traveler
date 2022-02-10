@@ -37,7 +37,10 @@
         </span>
         <?php endif; ?>
             <h1><?php the_title(); ?></h1>
-            <p class="lead"><?php the_time('n月j日'); ?> <?php the_time('G:i'); ?></p>
+            <p class="lead">投稿 : <?php the_time('n月j日'); ?><?php the_time('G:i'); ?> 
+              <?php if(get_the_time('Y/m/d/G:i') != get_the_modified_date('Y/m/d/G:i')):?>
+                 <br>→ 更新 : <?php the_modified_date('m/d') ?> <?php the_modified_date('G:i'); ?></p> 
+                <?php endif;?>
             <hr>
         </div>
         <div class="honbun">

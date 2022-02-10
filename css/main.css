@@ -36,7 +36,7 @@ body {
     background-image: url(../images/topimage.jpg);
 
 }
-.top-image .douga{
+/* .top-image .douga{
     border-radius: 20px;
     border: 2px solid white;
     display: block;
@@ -45,18 +45,18 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-top: 330px;
-}
+} */
 
 .movie .container{
-    max-width:1000px;
+    /* max-width:1000px; */
     margin:0px auto;
-    padding:20px 20px;
+    padding:10px 5px;
     text-align: center;
     background-color: #414042;
 }
 
 .movie .douga{
-    width: 70%;
+    width: auto;
 }
 .schedule{
     width:100%;
@@ -115,11 +115,11 @@ body::before {
     max-width:1000px;
     margin:0px auto;
     padding:25vh 20px;
-    border-top: 15px solid #414042;
+    border-top: 10px solid #414042;
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
-    background-image: url(../images/uzushio2.jpg);
+    background-image: url(../images/uzushio3.jpg);
 }
 
 .bookmark .book_mark{
@@ -173,7 +173,7 @@ body::before {
 
 .footer {
     background: black;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 .footer .copyright{
@@ -182,12 +182,10 @@ body::before {
     font-size: 7px;
     font-family: sans-serif;
 }
-.footer .login{
-    text-align: center;
-    color: white;
-    font-size: 7px;
-    font-family: sans-serif;
-}
+
+ul.footer-menu li {
+    display: inline;
+    }
 
 .announce{
     letter-spacing: 0em;

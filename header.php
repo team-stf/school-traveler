@@ -67,12 +67,12 @@
     });
   });
   </script>
-   <script type="text/javascript">
+   <!-- <script type="text/javascript">
    $(function() {
        var height=$("#header").height();
        $("body").css("margin-top", height + 7);//10pxだけ余裕をもたせる
    });
-   </script>
+   </script> -->
 
 
    <script>

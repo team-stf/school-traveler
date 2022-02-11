@@ -51,20 +51,6 @@ function dashboard_text() {
     echo $html;
 }
 
-
-
-
-// マニュアル追加
-add_action('admin_menu', 'custom_menu_page');
-function custom_menu_page(){
-  add_menu_page('マニュアル', 'マニュアル', 'read', 'custom_menu_page', 'add_custom_menu_page', 'dashicons-welcome-learn-more', 1);
-}
-function add_custom_menu_page(){ ?>
-<div class="wrap">
-<h2>投稿方法</h2>
-</div>
-<?php
-}
 //トラブル追加
 add_action('admin_menu', 'register_my_custom_menu_page');
 function register_my_custom_menu_page(){
@@ -75,6 +61,58 @@ function add_traburu(){ ?>
     <h1>サポート</h1>
     <hr>
     <p>サイトでのトラブル、不具合、分からないことなどありましたら、J2A担任 中山先生。または、WEB管理 J2A 30 松田海人 J2A 39 若松駿  まで<p>
+        
     </div>
     <?php
     }
+
+
+// マニュアル追加
+add_action('admin_menu', 'custom_menu_page');
+function custom_menu_page(){
+  add_menu_page('マニュアル', 'マニュアル', 'read', 'custom_menu_page', 'add_custom_menu_page', 'dashicons-welcome-learn-more', 1);
+}
+function add_custom_menu_page(){ ?>
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/single/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/single/single.css">
+<style>
+    body {
+        background-color: lightgray;
+        letter-spacing:0em;
+    }
+
+		.main {
+			padding: 40px 15px;
+            background-color: white;
+		}
+    p{
+        margin-bottom: 0rem;
+        font-size:1.2rem;
+    }
+    .container-fluid {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 750px;
+    }
+	</style>
+<body>
+    <div class="container-fluid">
+        <div class="main">
+            <div class="article-info">
+                    <h1>投稿方法</h1>
+                    <hr>
+            </div>
+            <div class="honbun">
+                <img src="https://i.gyazo.com/7396fe8480bb97161ae604b10dd31f21.png" class="img-fluid">
+                
+                <img src="" class="img-fluid">
+                <img src="" class="img-fluid">
+                <div class="text-center"><a class="btn btn-primary" href="admin.php?page=traburu" role="button">サポート</a></div>
+            </div>
+        </div>
+    </div>
+
+<?php
+}
+

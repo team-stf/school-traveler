@@ -6,9 +6,9 @@
       <p class="copyright">© 2014-2022 <br />AIT Meiden High School Information Design Club.</p>
       
       　<ul style="text-align: center;" class="footer-menu">
-         <li><a style="font-size: 12px;" href="wp-admin">Teacher ｜</a></li>
-         <li><a style="font-size: 12px;" href="contact">Contact ｜</a></li>
-         <li><a style="font-size: 12px;" href="wp-admin">Teacher  </a></li>
+         <li><a style="font-size: 12px;" href="wp-admin">teacher ｜</a></li>
+         <li><a style="font-size: 12px;" href="contact">contact ｜</a></li>
+         <li><a style="font-size: 12px;" href="wp-admin">cradit</a></li>
       </div>
 </section>
 <?php wp_footer(); ?>

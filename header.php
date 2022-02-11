@@ -67,12 +67,12 @@
     });
   });
   </script>
-   <!-- <script type="text/javascript">
+   <script type="text/javascript">
    $(function() {
        var height=$("#header").height();
-       $("body").css("margin-top", height + 7);//10pxだけ余裕をもたせる
+       $("body").css("margin-top", height + 64);//10pxだけ余裕をもたせる
    });
-   </script> -->
+   </script>
 
 
    <!-- <script>
@@ -107,5 +107,5 @@ $(function () {
 </head>
 
 <header style="z-index: 100;">
-   <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo.svg"></a>
+   <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-sq.svg"></a>
 </header>

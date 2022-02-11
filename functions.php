@@ -15,22 +15,21 @@ function remove_dashboard_widget() {
 add_action( 'admin_menu', 'remove_menus' );
 function remove_menus(){
     if( current_user_can( 'editor' ) ){
-    remove_menu_page( 'index.php' ); //ダッシュボード
-    //remove_menu_page( 'edit.php' ); //投稿メニュー
-    remove_menu_page( 'upload.php' ); //メディア
+        remove_menu_page( 'index.php' ); //ダッシュボード
+        remove_menu_page( 'upload.php' ); //メディア
 
-    remove_menu_page( 'edit-comments.php' ); //コメントメニュー
-    remove_menu_page( 'themes.php' ); //外観メニュー
-    remove_menu_page( 'plugins.php' ); //プラグインメニュー
-    remove_menu_page( 'tools.php' ); //ツールメニュー
-    remove_menu_page( 'options-general.php' ); //設定メニュー
-    remove_menu_page( 'profile.php' ); //設定メニュー
+        remove_menu_page( 'edit-comments.php' ); //コメントメニュー
+        remove_menu_page( 'themes.php' ); //外観メニュー
+        remove_menu_page( 'plugins.php' ); //プラグインメニュー
+        remove_menu_page( 'tools.php' ); //ツールメニュー
+        remove_menu_page( 'options-general.php' ); //設定メニュー
+        remove_menu_page( 'profile.php' ); //設定メニュー
+
+        //サブ
+        remove_submenu_page( 'edit.php', 'edit-tags.php?taxonomy=category' ); //カテゴリー
+        remove_submenu_page( 'edit.php', 'edit-tags.php?taxonomy=post_tag' ); //タグ
     }
 }
-
-
-
-
 
 
 // オリジナルウィジェットを追加
@@ -45,35 +44,29 @@ function dashboard_text() {
 }
 
 
-/* 管理画面にオリジナルメニューを追加する */
-add_action( 'admin_menu', 'register_my_custom_menu_page' );
-function register_my_custom_menu_page(){
-    add_menu_page( '投稿方法', '投稿方法',
-    'manage_options', 'custompage', 'my_custom_menu_page', '', 6 ); 
 
-    add_menu_page( '不具合など', '不具合など',
-    'manage_options', 'custompage2', 'my_custom_menu_page2', '', 80 ); 
-}
-function my_custom_menu_page(){
-    echo "<h2>オリジナルメニューページ</h2>";   
-    echo "ここに自由にメニューを作成できます。";  
-}
-function my_custom_menu_page2(){
-    echo "<h2>不具合など</h2>";   
-    echo "トラブルなどは J2A 39 若松駿 J2A 30 松田海人 もしくは、中山先生まで。";  
-}
 
+// マニュアル追加
 add_action('admin_menu', 'custom_menu_page');
-function custom_menu_page()
-{
-  add_menu_page('共通設定画面', '共通設定', 'manage_options', 'custom_menu_page', 'add_custom_menu_page', 'dashicons-admin-generic', 4);
+function custom_menu_page(){
+  add_menu_page('マニュアル', 'マニュアル', 'read', 'custom_menu_page', 'add_custom_menu_page', 'dashicons-welcome-learn-more', 1);
 }
-function add_custom_menu_page()
-{
-?>
+function add_custom_menu_page(){ ?>
 <div class="wrap">
-<h2>共通設定画面</h2>
+<h2>投稿方法</h2>
 </div>
 <?php
 }
-
+//トラブル追加
+add_action('admin_menu', 'register_my_custom_menu_page');
+function register_my_custom_menu_page(){
+    add_menu_page('マニュアル2', '困ったら', 'read', 'traburu', 'add_traburu', 'dashicons-phone', 80);
+}
+function add_traburu(){ ?>
+    <div class="wrap">
+    <h1>サポート</h1>
+    <hr>
+    <p>サイトでのトラブル、不具合、分からないことなどありましたら、J2A担任 中山先生。または、WEB管理 J2A 30 松田海人 J2A 39 若松駿  まで<p>
+    </div>
+    <?php
+    }

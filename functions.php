@@ -39,7 +39,7 @@ function my_custom_dashboard_widgets() {
     wp_add_dashboard_widget('custom_help_widget', 'トラブル、不具合があった場合', 'dashboard_text');
 }
 function dashboard_text() {
-    $html = '<p style="color: #d73a49;">トラブルなどは J2A 39 若松駿 J2A 30 松田海人 もしくは、中山先生まで。</p>';
+    $html = '<p style="color: #d73a49;">トラブルなどは J2A担任 中山先生 J2A 39 若松駿 J2A 30 松田海人 もしくは、まで。</p>';
     echo $html;
 }
 

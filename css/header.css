@@ -2,7 +2,7 @@
 header {
    top: 0;
    width: 100%;
-   background-color: white;
+   background-color: rgba( 255, 255, 255, 0.8 );
    display: flex;
    align-items: center;
    height: 4em;
@@ -14,12 +14,12 @@ header {
    width:100%;
 }
 img.logo {
-   width: 70%;
+   width: 60%;
    display: block;
  }
 
  header .logo {
-   width: 6vh;
+   width: 5vh;
    float: left;
  }
 

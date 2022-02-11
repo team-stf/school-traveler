@@ -107,5 +107,5 @@ $(function () {
 </head>
 
 <header style="z-index: 100;">
-   <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-sq.svg"></a>
+   <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-seikou.svg"></a>
 </header>

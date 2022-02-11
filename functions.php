@@ -17,13 +17,21 @@ function remove_menus(){
     if( current_user_can( 'editor' ) ){
         remove_menu_page( 'index.php' ); //ダッシュボード
         remove_menu_page( 'upload.php' ); //メディア
-
+        remove_menu_page( 'edit-comments.php' ); // コメント.
         remove_menu_page( 'edit-comments.php' ); //コメントメニュー
         remove_menu_page( 'themes.php' ); //外観メニュー
         remove_menu_page( 'plugins.php' ); //プラグインメニュー
         remove_menu_page( 'tools.php' ); //ツールメニュー
         remove_menu_page( 'options-general.php' ); //設定メニュー
         remove_menu_page( 'profile.php' ); //設定メニュー
+
+        remove_submenu_page( 'tools.php', 'tools.php' ); // ツール / 利用可能なツール.
+		remove_submenu_page( 'tools.php', 'import.php' ); // ツール / インポート.
+		remove_submenu_page( 'tools.php', 'export.php' ); // ツール / エクスポート.
+		remove_submenu_page( 'tools.php', 'site-health.php' ); // ツール / サイトヘルス.
+		remove_submenu_page( 'tools.php', 'export_personal_data' ); // ツール / 個人データのエクスポート.
+		remove_submenu_page( 'tools.php', 'remove_personal_data' ); // ツール / 個人データの消去
+
 
         //サブ
         remove_submenu_page( 'edit.php', 'edit-tags.php?taxonomy=category' ); //カテゴリー

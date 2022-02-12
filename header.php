@@ -3,7 +3,7 @@
 <head>
    <meta charset="utf-8">
    <meta name="robots" content="noindex,nofollow">
-   <title>OKINAWATEST</title>
+   <title>愛工大名電修学旅行WEB</title>
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

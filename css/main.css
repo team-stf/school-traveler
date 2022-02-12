@@ -16,47 +16,33 @@ body {
     opacity:0;
 }
 
-.osirase {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* .top-image {
-    position: relative;
-  } */
+/*メインビジュアル*/
 .top-image {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 68vh;
     min-height: 68vh;
-    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
-    background-image: url(../images/topimage.jpg);
+    background-image: url(../images/main_visual.png);
 
 }
 
-.movie .container{
-    max-width:1000px;
-    margin:0px auto;
-    padding:0px 0px;
-    text-align: center;
-}
+/*動画*/
 .movie iframe{
     width: 100%;
 }
 
+/*スケジュール*/
 .schedule{
     width:100%;
 }
+
 .schedule .day-title{
     font-size: 14px;
     font-family: sans-serif;
 }
-
-
-
 
 .schedule .time_table{
     font-size: 150%;
@@ -68,20 +54,13 @@ body {
     padding-bottom: 3px;
 }
 
-.schedule .schedule_title{
-    font-size : 120%;
-    line-height : 1;
-    margin: 0 calc(50% - 50vw);
-    text-align: center;
-}
-
 .schedule .container{
     max-width:1000px;
     margin:0px auto;
     padding:25vh 20px;
 }
 body::before {
-    background: url(../images/himejijou4.png) no-repeat center;/* 擬似要素に背景画像 */
+    background: url(../images/himejijou4.png) no-repeat center;
     background-size: cover;
     content: "";
     display: block;
@@ -100,12 +79,12 @@ body::before {
     text-align: center;
 }
 
+/*しおり表示*/
 .bookmark .container{
     max-width:1000px;
     margin:0px auto;
     padding:25vh 20px;
     border-top: 10px solid #414042;
-    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     background-image: url(../images/uzushio3.jpg);
@@ -119,11 +98,6 @@ body::before {
     font-family: "Gill Sans", sans-serif;
     border-bottom: 1px solid #414042;
     padding-bottom: 3px;
-}
-.bookmark .bookmark_logo{
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #cards {
@@ -146,20 +120,13 @@ body::before {
 .picture img {
     width: 100%;
 }
-
-
-
 .description p {
     font-size: 12px;
     text-align: center;
     color: #414042;
 }
 
-
-.schedule .schedule1{
-    width: 100%;
-}
-
+/*フッター*/
 .footer {
     background: black;
     padding: 20px;
@@ -177,6 +144,7 @@ ul.footer-menu li {
     margin-right: auto;
     }
 
+/*アナウンス*/
 .announce{
     letter-spacing: 0em;
  }
@@ -208,5 +176,4 @@ ul.footer-menu li {
   color:black;
   font-size:10px;
 }
-
 

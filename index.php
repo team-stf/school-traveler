@@ -2,7 +2,7 @@
 <body>
       <!-- お知らせStart -->
       <style> 
-
+        
       </style>
       <div style="background-color: white;" class="announce">
       <h1 style="text-align: center;">お知らせ</h1>
@@ -30,27 +30,18 @@
          endif;
          ?>
          </div>
-
+      
       <!-- お知らせEND -->
       <div class="top-image">
-        <!-- <img class="background" src="images/top1.png"> -->
-        <!-- <img class="logo" src="./images/title.svg"> -->
-        <!-- <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video> -->
       </div>
-
+      
 <section class="movie">
-   <div class="container">
-      <div class="content">
-         <!-- <video class="douga" src="<?php echo get_template_directory_uri(); ?>/images/demo.mp4" autoplays muted></video> -->
          <iframe class="douga" width="560s" height="315" src="https://www.youtube.com/embed/wmK514c0KzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-   </div>
 </section>
-
 
 <div id="loader-bg">
   <div class="loading-animation">
-    <p class="power">Created by</p>
+    <p class="power">Createda by</p>
     <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/w-amidc.png"></p>
     <div class="bouncingLoader"><div></div></div>
   </div>
@@ -387,24 +378,24 @@
                   </div>
                </div>
                   <div id="cards">
-                     <div class="card">
-                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
-                       <div class="description">
-                         <p>-注意事項-</p>
-                       </div>
-                     </div>
-                     <div class="card" id="card-center">
-                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/部屋割り/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/部屋割り/1.png" alt=""></a></div>
-                       <div class="description">
-                         <p>-部屋割り-</p>
-                       </div>
-                     </div>
-                     <div class="card">
-                       <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/その他/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/その他/1.png" alt=""></a></div>
-                       <div class="description">
-                         <p>-その他-</p>
-                       </div>
-                     </div>
+                    <div class="card">
+                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/注意事項/1.svg" alt=""></a></div>
+                      <div class="description">
+                        <p>-注意事項-</p>
+                      </div>
+                    </div>
+                    <div class="card" id="card-center">
+                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/部屋割り/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/部屋割り/1.png" alt=""></a></div>
+                      <div class="description">
+                        <p>-部屋割り-</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/その他/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/その他/1.png" alt=""></a></div>
+                      <div class="description">
+                        <p>-その他-</p>
+                      </div>
+                    </div>
                   </div>
 
             </div>

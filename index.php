@@ -41,7 +41,7 @@
 
 <div id="loader-bg">
   <div class="loading-animation">
-    <p class="power">Createda by</p>
+    <p class="power">Created by</p>
     <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/w-amidc.png"></p>
     <div class="bouncingLoader"><div></div></div>
   </div>

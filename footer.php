@@ -3,7 +3,7 @@
          
       
       <div class="footer02">
-      <a href="https://meidenid.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/amidc_logo_black.png"></a>
+      <a href="https://meidenid.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/amidc_logo2.svg"></a>
          <ul class="menu">
             <li><a href="wp-admin">TEACHER</a></li>
             <li><a href="cradit">CRADIT</a></li>

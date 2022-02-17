@@ -59,7 +59,7 @@ body {
     margin:0px auto;
     padding:25vh 20px;
 }
-body::before {
+.schedule .container::before {
     background: url(../images/himejijou4.png) no-repeat center;
     background-size: cover;
     content: "";
@@ -89,7 +89,6 @@ body::before {
     background-position: center;
     background-image: url(../images/uzushio3.jpg);
 }
-
 .bookmark .book_mark{
     font-size: 150%;
     position: relative;
@@ -132,6 +131,10 @@ body::before {
     background: black;
     text-align: center;
     padding: 30px;
+   }
+   .footer02 img{
+       width: 30%;
+       padding: 5px;
    }
    .footer02 a {
     color: whtie;

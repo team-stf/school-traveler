@@ -149,12 +149,13 @@ body::before {
     justify-content: center;
    }
    .footer02 .menu li {
+    font-size: 12px;
     margin: 0;
-    padding: 0 20px;
+    padding: 0 10px;
    }
    .footer02 .copyright {
     color: white;
-    font-size: 1px;
+    font-size: 6px;
     margin: 0;
     padding: 20px 0 0 0;
    }

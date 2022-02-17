@@ -352,7 +352,7 @@
         <section class="bookmark">
             <div class="container">
               <!-- <h1 class="bookmark_logo"><img src="images/bookmark_logo.png"></h1> -->
-              <h1 class="book_mark">TRAVELBOOKMARK</h1>
+              <h1 class="book_mark">ARCHIVE</h1>
               <div class="content">
               <div id="cards">
                      <div class="card">
@@ -397,6 +397,40 @@
                   </div>
 
             </div>
+         </section>
+
+         <section class="hotel_room">
+           <div class="container">
+           <h1 class="hotel">HOTEL</h1>
+            <div class="content">
+              <select class="select_room" name="change_js">
+                <option>クラスを選択</option>
+                <option value="./sample1.html">G2A</option>
+                <option value="./sample2.html">G2B</option>
+                <option value="./sample1.html">G2D</option>
+                <option value="./sample2.html">G2E</option>
+                <option value="./sample1.html">G2F</option>
+                <option value="./sample2.html">G2G</option>
+                <option value="./sample1.html">G2H</option>
+                <option value="./sample2.html">G2I</option>
+                <option value="./sample1.html">G2J</option>
+                <option value="./sample2.html">G2K</option>
+                <option value="./sample1.html">T2A</option>
+                <option value="./sample2.html">T2B</option>
+                <option value="./sample1.html">T2C</option>
+                <option value="./sample2.html">T2D</option>
+                <option value="./sample1.html">T2E</option>
+                <option value="./sample2.html">J2A</option>
+            </select>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+                <script>
+                    const selected = $("select[name=change_js]");
+                    selected.on('change', function(){
+                        window.location.href = selected.val();
+                    });
+                </script>
+            </div>
+           </div>
          </section>
       </div>
    </div>

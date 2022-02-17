@@ -11,7 +11,7 @@
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/schedule.css">
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/loader.css">
-   
+   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fotter.css">
    <link href='https://fonts.googleapis.com/css?family=Kosugi' rel="stylesheet">
    
 

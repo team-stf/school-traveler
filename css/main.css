@@ -127,22 +127,37 @@ body::before {
 }
 
 /*フッター*/
-.footer {
+.footer02 {
+    color: black;
     background: black;
-    padding: 20px;
     text-align: center;
-}
-.footer .copyright{
-    text-align: center;
+    padding: 30px;
+   }
+   .footer02 a {
+    color: whtie;
+    text-decoration: none;
+   }
+   .footer02 a:hover {
+    text-decoration: underline;
+   }
+   .footer02 .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .footer02 .menu li {
+    margin: 0;
+    padding: 0 20px;
+   }
+   .footer02 .copyright {
     color: white;
-    font-size: 9px;
-    font-family: sans-serif;
-}
-
-ul.footer-menu li {
-    display: inline;
-    margin-right: auto;
-    }
+    font-size: 1px;
+    margin: 0;
+    padding: 20px 0 0 0;
+   }
 
 /*アナウンス*/
 .announce{

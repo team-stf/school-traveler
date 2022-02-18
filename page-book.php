@@ -88,6 +88,7 @@
 
   <body>
     <!-- Swiper -->
+    
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -215,7 +216,7 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-scrollbar"></div>
       <div class="swiper-pagination"></div>
-    </div>
+    
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

@@ -103,7 +103,7 @@ body::before {
 .hotel_room .container{
     max-width:1000px;
     margin:0px auto;
-    padding:25vh 20px;
+    padding:15vh 20px;
     border-top: 10px solid #414042;
     background-size: cover;
     background-position: center;
@@ -113,7 +113,7 @@ body::before {
 .hotel_room .hotel{
     font-size: 150%;
     position: relative;
-    margin-bottom: 6vh;
+    margin-bottom: 12vh;
     text-align: center;
     font-family: "Trebuchet MS";
     border-bottom: 1px solid #414042;
@@ -225,3 +225,4 @@ body::before {
   color:black;
   font-size:10px;
 }
+

@@ -47,302 +47,290 @@
 
 
 
-<article class="top">
-  <div class="wrap">
-      <div class="inner">
-        <!--スケジュール-->
+
             <selection class="schedule">
               <div class="container">
                   <h1 class="time_table">TIMETABLE</h1>
-                  <!-- <h1 class="schedule_logo"><img src="images/schedule_logo.png"></h1> -->
-                  <div class="content">
-                        <!--Day1-->
-                  <section class="day1">
-                    <details>
-                        <summary><p class="day-title">DAY1</p></summary>
-                        <div class="answer">
-                        <p>
-                          <article>
-                              <div class="events">
-                          
-                                <div class="event">
-                                  <p class="time">9:03</p>
-                                  <p class="name">集合: 名古屋駅</p>
-                                </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">09:03</p>
-                              <p class="name">名古屋駅</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img style="width: 25px;" src="<?php echo get_template_directory_uri(); ?>/images/shinkansen.svg">ひかり501号（約1時間30分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">10:39</p>
-                              <p class="name">姫路駅</p>
-                            </div>
-                          </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">11:00</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（15分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">11:15</p>
-                              <p class="name">姫路城</p>
-                            </div>
-                          </div>
-                          
-                          <div class="meal">
-                            <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">弁当</p>
-                          </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">13:30</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">15:00</p>
-                              <p class="name">北淡路地震記念公園</p>
-                            </div>
-                          </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">17:00</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（50分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">17:50</p>
-                              <p class="name">シーサイドホテル舞子ビラ</p>
-                            </div>
-                          </div>
-                      
-                          <div class="meal">
-                            <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">夕食</p>
-                          </div>
-                          
-                          <div class="event">
-                            <p class="time"></p>
-                            <p class="name">就寝</p>
-                          </div>
-                          
-                          
-                          
-                              </div>
-                            </article>
-                        </p>
-                        </div>
-                    </details>
-                  </section>
-                        <!--Day2-->
-                  <section class="day2">
-                    <details>
-                        <summary><p class="day-title">DAY2</p></summary>
-                        <div class="answer">
-                        <p>
-                          <article>
-                              <div class="events">
-                                <div class="transfer">
-                            <div class="from">
-                              <p class="time">07:50</p>
-                              <p class="name">ホテル</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">09:20</p>
-                              <p class="name">うずしお観潮船</p>
-                            </div>
-                          </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">10:00</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">10:00</p>
-                              <p class="name">大塚国際美術館</p>
-                            </div>
-                          </div>
-
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">12:00</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">13:00</p>
-                              <p class="name">中野うどん学校</p>
-                            </div>
-                          </div>
-                          
-                          <div class="meal">
-                            <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">昼食・体験</p>
-                          </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">15:15</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">16:00</p>
-                              <p class="name">鷲羽山(展望台)</p>
-                            </div>
-                          </div>
-                          
-                          <div class="transfer">
-                            <div class="from">
-                              <p class="time">17:00</p>
-                              <p class="name">出発</p><br>
-                            </div>
-                            <div class="by">
-                              <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（20分）</p>
-                            </div>
-                            <div class="to">
-                              <p class="time">17:45</p>
-                              <p class="name">瀬戸内マリンホテル</p>
-                            </div>
-                          </div>
-
-                          <div class="event">
-                            <p class="time"></p>
-                            <p class="name">就寝</p>
-                          </div>
-                              </div>
-                            </article>
-                        </p>
-                        </div>
-                    </details>
-                  </section>
-                        <!--Day3-->
-                        <section class="day3">
-                          <details>
-
-                              <summary><p class="day-title">DAY3</p></summary>
-                              <div class="answer">
+                        <div class="accordion">
+                          <!--DAY1-->
+                          <div class="answer">
+                            <input  type="checkbox" id="check1" class="accordion-hidden">
+                            <label  for="check1" class="accordion-open"><p class="day-title">DAY1</p></label>
+                            <label for="check1" class="accordion-close">
                               <p>
                                 <article>
-                                    <div class="events">
-                                      <div class="transfer">
-                                  <div class="from">
-                                    <p class="time">08:30</p>
-                                    <p class="name">ホテル</p><br>
-                                  </div>
-                                  <div class="by">
-                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
-                                  </div>
-                                  <div class="to">
-                                    <p class="time">09:30</p>
-                                    <p class="name">琴平</p>
-                                  </div>
-                                </div>
-                                
-                                <div class="transfer">
-                                  <div class="from">
-                                    <p class="time">??:??</p>
-                                    <p class="name">出発</p><br>
-                                  </div>
-                                  <div class="by">
-                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
-                                  </div>
-                                  <div class="to">
-                                    <p class="time">??:??</p>
-                                    <p class="name">金毘羅宮</p>
-                                  </div>
-                                </div>
-      
-                                <div class="transfer">
-                                 <div class="from">
-                                   <p class="time">11:00</p>
-                                   <p class="name">出発</p><br>
-                                 </div>
-                                 <div class="by">
-                                   <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（15分）</p>
-                                 </div>
-                                 <div class="to">
-                                   <p class="time">11:15</p>
-                                   <p class="name">琴参閣</p>
-                                 </div>
-                               </div>
-                                
-                                <div class="meal">
-                                  <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">昼食</p>
-                                </div>
-                                
-                                <div class="transfer">
-                                  <div class="from">
-                                    <p class="time">12:00</p>
-                                    <p class="name">出発</p><br>
-                                  </div>
-                                  <div class="by">
-                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間15分）</p>
-                                  </div>
-                                  <div class="to">
-                                    <p class="time">13:15</p>
-                                    <p class="name">倉敷美観地区</p>
-                                  </div>
-                                </div>
-                                
-                                <div class="transfer">
-                                  <div class="from">
-                                    <p class="time">15:45</p>
-                                    <p class="name">出発</p><br>
-                                  </div>
-                                  <div class="by">
-                                    <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（0分）</p>
-                                  </div>
-                                  <div class="to">
-                                    <p class="time">15:45</p>
-                                    <p class="name">岡山駅</p>
-                                  </div>
-                                </div>
-
-                                <div class="transfer">
-                                  <div class="from">
-                                    <p class="time">16:37</p>
-                                    <p class="name">岡山駅</p><br>
-                                  </div>
-                                  <div class="by">
-                                    <p><img style="width: 25px;" src="<?php echo get_template_directory_uri(); ?>/images/shinkansen.svg">のぞみ40号(1時間30分)</p>
-                                  </div>
-                                  <div class="to">
-                                    <p class="time">18:13</p>
-                                    <p class="name">名古屋駅</p>
-                                  </div>
-                                </div>
-
-                                
+                                  <div class="events">
+                                      <div class="event">
+                                        <p class="time">9:03</p>
+                                        <p class="name">集合: 名古屋駅</p>
+                                      </div>
+                                    
+                                    <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">09:03</p>
+                                        <p class="name">名古屋駅</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img style="width: 25px;" src="<?php echo get_template_directory_uri(); ?>/images/shinkansen.svg">ひかり501号（約1時間30分）</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">10:39</p>
+                                        <p class="name">姫路駅</p>
+                                      </div>
                                     </div>
-                                  </article>
+                                    
+                                    <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">11:00</p>
+                                        <p class="name">出発</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（15分）</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">11:15</p>
+                                        <p class="name">姫路城</p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="meal">
+                                      <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">弁当</p>
+                                    </div>
+                                    
+                                    <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">13:30</p>
+                                        <p class="name">出発</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">15:00</p>
+                                        <p class="name">北淡路地震記念公園</p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">17:00</p>
+                                        <p class="name">出発</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（50分）</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">17:50</p>
+                                        <p class="name">シーサイドホテル舞子ビラ</p>
+                                      </div>
+                                    </div>
+                                
+                                    <div class="meal">
+                                      <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">夕食</p>
+                                    </div>
+                                    
+                                    <div class="event">
+                                      <p class="time"></p>
+                                      <p class="name">就寝</p>
+                                    </div>
+
+                                  </div>
+                                </article>
                               </p>
+                            </label>
+                          
+                            <!--DAY2-->
+                            <input type="checkbox" id="check2" class="accordion-hidden">
+                            <label for="check2" class="accordion-open"><p class="day-title">DAY2</p></label>
+                            <label for="check2" class="accordion-close">
+                            <p>
+                              <article>
+                                  <div class="events">
+                                    <div class="transfer">
+                                <div class="from">
+                                  <p class="time">07:50</p>
+                                  <p class="name">ホテル</p><br>
+                                </div>
+                                <div class="by">
+                                  <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
+                                </div>
+                                <div class="to">
+                                  <p class="time">09:20</p>
+                                  <p class="name">うずしお観潮船</p>
+                                </div>
                               </div>
-                           </details>
-                        </section>
+                              
+                              <div class="transfer">
+                                <div class="from">
+                                  <p class="time">10:00</p>
+                                  <p class="name">出発</p><br>
+                                </div>
+                                <div class="by">
+                                  <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
+                                </div>
+                                <div class="to">
+                                  <p class="time">10:00</p>
+                                  <p class="name">大塚国際美術館</p>
+                                </div>
+                              </div>
+
+                              <div class="transfer">
+                                <div class="from">
+                                  <p class="time">12:00</p>
+                                  <p class="name">出発</p><br>
+                                </div>
+                                <div class="by">
+                                  <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間）</p>
+                                </div>
+                                <div class="to">
+                                  <p class="time">13:00</p>
+                                  <p class="name">中野うどん学校</p>
+                                </div>
+                              </div>
+                              
+                              <div class="meal">
+                                <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">昼食・体験</p>
+                              </div>
+                              
+                              <div class="transfer">
+                                <div class="from">
+                                  <p class="time">15:15</p>
+                                  <p class="name">出発</p><br>
+                                </div>
+                                <div class="by">
+                                  <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
+                                </div>
+                                <div class="to">
+                                  <p class="time">16:00</p>
+                                  <p class="name">鷲羽山(展望台)</p>
+                                </div>
+                              </div>
+                              
+                              <div class="transfer">
+                                <div class="from">
+                                  <p class="time">17:00</p>
+                                  <p class="name">出発</p><br>
+                                </div>
+                                <div class="by">
+                                  <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（20分）</p>
+                                </div>
+                                <div class="to">
+                                  <p class="time">17:45</p>
+                                  <p class="name">瀬戸内マリンホテル</p>
+                                </div>
+                              </div>
+
+                              <div class="event">
+                                <p class="time"></p>
+                                <p class="name">就寝</p>
+                              </div>
+                                  </div>
+                                </article>
+                            </p>
+                            </label>
+                            <!--DAY3-->
+                            <input type="checkbox" id="check3" class="accordion-hidden">
+                            <label for="check3" class="accordion-open"><p class="day-title">DAY3</p></label>
+                            <label for="check3" class="accordion-close">
+                            <p>
+                                    <article>
+                                        <div class="events">
+                                          <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">08:30</p>
+                                        <p class="name">ホテル</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間30分）</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">09:30</p>
+                                        <p class="name">琴平</p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">??:??</p>
+                                        <p class="name">出発</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（10分）</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">??:??</p>
+                                        <p class="name">金毘羅宮</p>
+                                      </div>
+                                    </div>
+          
+                                    <div class="transfer">
+                                    <div class="from">
+                                      <p class="time">11:00</p>
+                                      <p class="name">出発</p><br>
+                                    </div>
+                                    <div class="by">
+                                      <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（15分）</p>
+                                    </div>
+                                    <div class="to">
+                                      <p class="time">11:15</p>
+                                      <p class="name">琴参閣</p>
+                                    </div>
+                                  </div>
+                                    
+                                    <div class="meal">
+                                      <p><img src="<?php echo get_template_directory_uri(); ?>/images/meal.svg">昼食</p>
+                                    </div>
+                                    
+                                    <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">12:00</p>
+                                        <p class="name">出発</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（1時間15分）</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">13:15</p>
+                                        <p class="name">倉敷美観地区</p>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">15:45</p>
+                                        <p class="name">出発</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img src="<?php echo get_template_directory_uri(); ?>/images/bus.svg">バス（0分）</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">15:45</p>
+                                        <p class="name">岡山駅</p>
+                                      </div>
+                                    </div>
+
+                                    <div class="transfer">
+                                      <div class="from">
+                                        <p class="time">16:37</p>
+                                        <p class="name">岡山駅</p><br>
+                                      </div>
+                                      <div class="by">
+                                        <p><img style="width: 25px;" src="<?php echo get_template_directory_uri(); ?>/images/shinkansen.svg">のぞみ40号(1時間30分)</p>
+                                      </div>
+                                      <div class="to">
+                                        <p class="time">18:13</p>
+                                        <p class="name">名古屋駅</p>
+                                      </div>
+                                    </div>
+
+                                    
+                                        </div>
+                                      </article>
+                                  </p>
+                            </label>
+                          </div>
+                      </div>
+
                   </div>
               </div>
             </selection>
@@ -395,7 +383,6 @@
                       </div>
                     </div>
                   </div>
-
             </div>
          </section>
 
@@ -403,36 +390,17 @@
            <div class="container">
            <h1 class="hotel">HOTEL</h1>
             <div class="content">
-              <select class="select_room" name="change_js">
-                <option>クラスを選択</option>
-                <option value="./sample1.html">G2A</option>
-                <option value="./sample2.html">G2B</option>
-                <option value="./sample1.html">G2D</option>
-                <option value="./sample2.html">G2E</option>
-                <option value="./sample1.html">G2F</option>
-                <option value="./sample2.html">G2G</option>
-                <option value="./sample1.html">G2H</option>
-                <option value="./sample2.html">G2I</option>
-                <option value="./sample1.html">G2J</option>
-                <option value="./sample2.html">G2K</option>
-                <option value="./sample1.html">T2A</option>
-                <option value="./sample2.html">T2B</option>
-                <option value="./sample1.html">T2C</option>
-                <option value="./sample2.html">T2D</option>
-                <option value="./sample1.html">T2E</option>
-                <option value="./sample2.html">J2A</option>
-            </select>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-                <script>
-                    const selected = $("select[name=change_js]");
-                    selected.on('change', function(){
-                        window.location.href = selected.val();
-                    });
-                </script>
+          <div class="accordion-inner">
+              <h3 class="heading">横開き</h3>
+              <div class="accordion-box row">
+                  <input type="checkbox" id="accordion-check2">
+                  <label class="accordion-label-side" for="accordion-check2">アコーディオンA</label>
+                  <div class="accordion-content-css-side">
+                      アコーディオンの中身です
+                  </div>
+              </div>
+          </div>
             </div>
            </div>
          </section>
-      </div>
-   </div>
-</article>
 <?php get_footer(); ?>

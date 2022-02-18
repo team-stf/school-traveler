@@ -100,6 +100,12 @@ $(function () {
   webStorage();
 });
    </script>
+   <script>
+      $('.accordion').click(function () {
+    $(this).next().slideToggle(300);
+});
+
+   </script>
    <!--部屋割り-->
 <!-- headue -->
    <?php wp_head(); ?>

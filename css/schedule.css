@@ -220,7 +220,7 @@ summary {
   }
   
   .answer {
-	padding: 20px 30px;
+	padding: 20px 100px;
   }
   
   @media not all and (min-width: 768px){
@@ -265,20 +265,20 @@ summary {
   }
 
   /* article */
-article {
+.article{
 	width: 100%;
 	margin: 0 auto;
   }
   
-  .events p {
+   .events p {
 	display: inline-block;
-	font-size: 1.5em;
+	font-size: 1.2em;
   }
   
   .events .time {
 	width: 100%;
 	margin-right: 5px;
-	font-size: 85%;
+	font-size: 70%;
 	color: #64C9CF;
   }
   
@@ -294,7 +294,7 @@ article {
   }
   
   .transfer .by p {
-	font-size: 1.2em;
+	font-size: 1.0em;
 	display: inline-block;
   }
   
@@ -310,7 +310,7 @@ article {
   }
   
   .meal p {
-	font-size: 1.2em;
+	font-size: 1.0em;
 	display: inline-block;
   }
   
@@ -320,3 +320,42 @@ article {
 	vertical-align: middle;
 	display: inline-block;
   }
+
+/*------------------------------
+
+ここからアコーディオンのCSS
+
+------------------------------*/
+/* チェックボックスを非表示にする */
+.accordion-hidden{
+  display: none;
+}
+
+/*day表示場所*/
+.accordion-open {
+position: relative;
+  display: block;
+  padding: 15px;
+  border: solid black 2px;
+  background: white;
+  cursor: pointer;
+  margin: 25px 0;
+
+}
+
+.accordion-close {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;/* 表示速度の設定 */
+}
+
+.accordion-hidden:checked + .accordion-open + .accordion-close {
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+  background: transparent;
+  font-weight: 700;
+}

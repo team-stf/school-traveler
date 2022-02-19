@@ -3,15 +3,14 @@
 <head>
    <meta charset="utf-8">
    <meta name="robots" content="noindex,nofollow">
-   <title>愛工大名電修学旅行WEB</title>
+   <title>OKINAWATEST1</title>
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/schedule.css">
-   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/loader.css">
-   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fotter.css">
+
    <link href='https://fonts.googleapis.com/css?family=Kosugi' rel="stylesheet">
    
 
@@ -70,49 +69,15 @@
    <script type="text/javascript">
    $(function() {
        var height=$("#header").height();
-       $("body").css("margin-top", height + 64);//10pxだけ余裕をもたせる
+       $("body").css("margin-top", height + 7);//10pxだけ余裕をもたせる
    });
    </script>
 
-
-   <!-- <script>
-      $(window).on('load',function(){
- $("#loader-bg").delay(1000).fadeOut('slow');
- //ローディング画面を3秒（3000ms）待機してからフェードアウト
-});
-   </script> -->
-
    <script>
-$(function () {
-  var webStorage = function () {
-    if (sessionStorage.getItem('access')) {
-      /*
-        2回目以降アクセス時の処理
-      */
-      $("#loader-bg").addClass('is-active');
-    } else {
-      $(window).on('load',function(){
- $("#loader-bg").delay(300).fadeOut('slow');
- //ローディング画面を3秒（3000ms）待機してからフェードアウト
-});
-    }
-  }
-  webStorage();
-});
+      
    </script>
-   <script>
-      $('.accordion').click(function () {
-    $(this).next().slideToggle(300);
-});
 
-   </script>
-   <!--部屋割り-->
+
 <!-- headue -->
    <?php wp_head(); ?>
 </head>
-
-<header style="z-index: 100;">
-   <a class="shiori" href="book"><p>TRAVELBOOK</p></a>
-   <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-seikou.svg"></a>
-   <!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="panhu" src="<?php echo get_template_directory_uri(); ?>/images/panhu.svg"></a> -->
-</header>

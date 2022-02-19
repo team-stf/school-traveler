@@ -14,14 +14,17 @@ header {
    width:100%;
 }
 img.logo {
-   width: 60%;
+   width: 5vh;
    display: block;
  }
 
-header .logo {
-   width: 5vh;
-   flex: right;
- }
+header .panhu {
+   width: 2.5vh;
+   position: absolute;
+   right: 2vh;
+   bottom: 15px;
+   font-size: 12px;
+}
 
 header .shiori{
    position: absolute;

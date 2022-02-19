@@ -340,7 +340,30 @@ position: relative;
   background: white;
   cursor: pointer;
   margin: 25px 0;
+}
 
+/* 開閉状態を示すアイコン+の作成 */
+.accordion-open::before,
+.accordion-open::after {
+  content: '';
+  width: 17px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+/* 一本は縦にして+を作る */
+.accordion-open::after {
+  transform: translateY(-50%) rotate(90deg);
+  transition: .5s;
+}
+
+/* アコーディオンが開いたら縦棒を横棒にして-にする */
+.accordion-hidden:checked + .accordion-open:after {
+  transform: translateY(-50%) rotate(0);
 }
 
 .accordion-close {

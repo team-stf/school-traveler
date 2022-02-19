@@ -34,6 +34,7 @@ body {
     margin:0px auto;
     padding:15vh 20px;
     border-top: 10px solid #414042;
+    background-image: white;
 }
 
 /*動画*/
@@ -84,26 +85,6 @@ body::before {
     line-height : 1;
     margin: 0 calc(50% - 50vw);
     text-align: center;
-}
-
-/*しおり表示*/
-.bookmark .container{
-    max-width:1000px;
-    margin:0px auto;
-    padding:25vh 20px;
-    border-top: 10px solid #414042;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../images/uzushio3.jpg);
-}
-.bookmark .book_mark{
-    font-size: 150%;
-    position: relative;
-    margin-bottom: 12vh;
-    text-align: center;
-    font-family: "Trebuchet MS";
-    border-bottom: 1px solid #414042;
-    padding-bottom: 3px;
 }
 
 /*部屋割り*/

@@ -70,7 +70,7 @@
    <script type="text/javascript">
    $(function() {
        var height=$("#header").height();
-       $("body").css("margin-top", height + 64);//10pxだけ余裕をもたせる
+       $("body").css("margin-top", height + 54);//10pxだけ余裕をもたせる
    });
    </script>
 

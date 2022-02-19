@@ -14,13 +14,8 @@ header {
    width:100%;
 }
 img.logo {
-   width: 60%;
-   display: block;
- }
-
-header .logo {
    width: 5vh;
-   flex: right;
+   display: block;
  }
 
 header .panhu {

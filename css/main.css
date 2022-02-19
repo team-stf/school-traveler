@@ -122,16 +122,17 @@ body::before {
 .hotel_room .content{
     text-align: center;
 }
+
 .hotel_room .select_room{
-    width: 20vh;
-    height: 3vh;
+    width: 340px;
+    height: 40px;
     position: relative;
     margin-bottom: 12vh;
-    font-size: 15px;
-    border-radius: 2vh;
-    border: black 10px;
-    background-color: whtie;
-    border: 2px solid black;
+    font-size: 12px;
+    color: black;
+    background-color: #fff;
+    border: solid black 2px;
+    font-weight: 300;
 }
 
 

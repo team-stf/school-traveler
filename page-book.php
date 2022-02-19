@@ -92,125 +92,174 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/1.png"
-          />
+            <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/1.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/2.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/2.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/3.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/3.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/4.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/4.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/5.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/5.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/6.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/6.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/7.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/7.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/8.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/8.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/9.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/9.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/10.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/10.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/11.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/11.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/12.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/12.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/13.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/13.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/14.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/14.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/15.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/15.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/16.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/16.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/17.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/17.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/18.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/18.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/19.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/19.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/20.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/20.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/21.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/21.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/22.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/22.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/23.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/23.png"
+            />
+          </div>
         </div>
         <div class="swiper-slide">
-          <img
-            src="<?php echo get_template_directory_uri(); ?>/book/24.png"
-          />
+          <div class="swiper-zoom-container">
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/book/24.png"
+            />
+          </div>
         </div>
+      
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>

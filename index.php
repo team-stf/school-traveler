@@ -310,6 +310,7 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
+        lazy: true,
         centeredSlides: false,
         slidesPerGroupSkip: 1,
         grabCursor: true,

@@ -344,19 +344,19 @@
               <div class="content">
               <div id="cards">
                      <div class="card">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/1.png" alt=""></a></div>
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/book/day1.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/1日目/1.png" alt=""></a></div>
                         <div class="description">
                           <p>-1日目-</p>
                         </div>
                       </div>
                      <div class="card" id="card-center">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/1.png" alt=""></a></div>
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/book/day2.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/2日目/1.png" alt=""></a></div>
                         <div class="description">
                           <p>-2日目-</p>
                         </div>
                      </div>
                      <div class="card">
-                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/index.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/1.png" alt=""></a></div>
+                        <div class="picture"><a href="<?php echo get_template_directory_uri(); ?>/book/day3.html"><img src="<?php echo get_template_directory_uri(); ?>/bookmark/3日目/1.png" alt=""></a></div>
                         <div class="description">
                           <p>-3日目-</p>
                         </div>

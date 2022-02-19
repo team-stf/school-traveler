@@ -337,6 +337,40 @@
 
 <!--// スケジュール -->
 
+<!--// ホテル -->
+<section class="hotel_room">
+    <div class="container">
+    <h1 class="hotel">HOTEL</h1>
+      <div class="content">
+        <select class="select_room" name="change_js">
+                <option>クラスを選択</option>
+          <optgroup label="普通科">
+            <option value="room/g2a">G2A</option>
+            <option value="room/g2b">G2B</option>
+            <option value="room/g2c">G2C</option>
+            <option value="room/g2d">G2D</option>
+            <option value="room/g2e">G2E</option>
+            <option value="room/g2f">G2F</option>
+            <option value="room/g2g">G2G</option>
+            <option value="room/g2h">G2H</option>
+            <option value="room/g2i">G2I</option>
+            <option value="room/g2j">G2J</option>
+            <option value="room/g2k">G2K</option>
+          </optgroup>
+          <optgroup label="専門科">
+            <option value="room/t2a">T2A</option>
+            <option value="room/t2b">T2B</option>
+            <option value="room/t2c">T2C</option>
+            <option value="room/t2d">T2D</option>
+            <option value="room/t2e">T2E</option>
+            <option value="room/j2a">J2A</option>
+          </optgroup>
+      </select>
+      </div>
+    </div>
+  </section>
+<!--// ホテrう -->
+
 <!--// しおri -->
 <section class="bookmark">
   <div class="container">
@@ -387,23 +421,5 @@
   </div>
 </section>
 
-<!--// ホテル -->
-  <section class="hotel_room">
-    <div class="container">
-    <h1 class="hotel">HOTEL</h1>
-      <div class="content">
-    <div class="accordion-inner">
-        <h3 class="heading">横開き</h3>
-        <div class="accordion-box row">
-            <input type="checkbox" id="accordion-check2">
-            <label class="accordion-label-side" for="accordion-check2">アコーディオンA</label>
-            <div class="accordion-content-css-side">
-                アコーディオンの中身です
-            </div>
-        </div>
-    </div>
-      </div>
-    </div>
-  </section>
-<!--// ホテrう -->
+
 <?php get_footer(); ?>

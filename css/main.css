@@ -107,13 +107,13 @@ body::before {
     border-top: 10px solid #414042;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/ホテル.jpeg);
+    background-image: url(../images/daiyamonndo.png);
 }
 
 .hotel_room .hotel{
     font-size: 150%;
     position: relative;
-    margin-bottom: 12vh;
+    margin-bottom: 10vh;
     text-align: center;
     font-family: "Trebuchet MS";
     border-bottom: 1px solid #414042;
@@ -123,10 +123,17 @@ body::before {
     text-align: center;
 }
 .hotel_room .select_room{
-    
-    width: 50%;
+    width: 20vh;
+    height: 3vh;
+    position: relative;
+    margin-bottom: 12vh;
     font-size: 15px;
+    border-radius: 2vh;
+    border: black 10px;
+    background-color: whtie;
+    border: 2px solid black;
 }
+
 
 
 #cards {

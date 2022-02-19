@@ -73,6 +73,10 @@
    });
    </script>
 
+   <script>
+      
+   </script>
+
 
 <!-- headue -->
    <?php wp_head(); ?>

@@ -114,5 +114,5 @@ $(function () {
 <header style="z-index: 100;">
    <a class="shiori" href="<?php echo esc_url( home_url( '/bookmark' ) ); ?>"><p>TRAVELBOOK</p></a>
    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-seikou.svg"></a>
-
+   <!-- <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="panhu" src="<?php echo get_template_directory_uri(); ?>/images/panhu.svg"></a> -->
 </header>

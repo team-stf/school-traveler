@@ -14,6 +14,9 @@
       margin-left: auto;
       max-width: 750px;
     }
+    .maxview{
+      width: 100%;
+    }
       </style>
     <div class="containe-fluid">
       <div class="main">
@@ -346,6 +349,8 @@
         },
       });
     </script>
+    <div class="maxview"><a class="btn btn-secondary w-100 mt-2" href="book" role="button">拡大表示</a></div>
+
 </section>
       
 <section class="movie">

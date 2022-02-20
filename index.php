@@ -2,8 +2,21 @@
 <body>
       <!-- お知らせStart -->
       <style> 
-        
+    .main {
+			padding: 40px 0px;
+		}
+    p{
+      margin-bottom: 0rem;
+      font-size:1.2rem;
+    }
+    .containe-fluid {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 750px;
+    }
       </style>
+    <div class="containe-fluid">
+      <div class="main">
       <div style="background-color: white;" class="announce">
       <h1 style="text-align: center;">お知らせ</h1>
       <hr>
@@ -294,6 +307,13 @@
         <div class="swiper-slide">
           <img
             data-src="<?php echo get_template_directory_uri(); ?>/book/24.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/junbi.png"
             class="swiper-lazy"
           />
           <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
@@ -672,4 +692,6 @@
     </div>
   </section>
 <!--// ホテル -->
+                  </div>
+                  </div>
 <?php get_footer(); ?>

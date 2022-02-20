@@ -17,22 +17,11 @@ body {
 }
 
 /*メインビジュアル*/
-.top-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 68vh;
-    min-height: 68vh;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../images/main_visual.png);
 
-}
-
-.shirori .container{
+.shirori{
     max-width:1000px;
     margin:0px auto;
-    padding:15vh 20px;
+    padding:1vh 20px;
     border-top: 10px solid #414042;
     background-image: white;
 }
@@ -55,19 +44,50 @@ body {
 .schedule .time_table{
     font-size: 150%;
     position: relative;
-    margin-bottom: 12vh;
+    margin-bottom: 6vh;
     text-align: center;
     font-family: "Trebuchet MS";
-    border-bottom: 1px solid #414042;
-    padding-bottom: 3px;
+}
+
+.schedule .time_table {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	text-align: center;
+}
+
+.schedule .time_table{
+    font-size: 150%;
+    position: relative;
+    margin-top: 7vh;
+    text-align: left;
+    font-family: "Trebuchet MS";
+    /* border-bottom: 1px solid #414042; */
+    /* padding-bottom: 3px; */
+}
+
+.schedule .time_table::before,
+.schedule .time_table::after {
+	content: '';
+	width: 70px;
+	height: 3px;
+	background-color: black;
+}
+
+.schedule .time_table::before {
+	margin-right: 20px;
+}
+.schedule .time_table::after {
+	margin-left: 20px;
 }
 
 .schedule .container{
     max-width:1000px;
     margin:0px auto;
-    padding:25vh 20px;
+    padding:15vh 20px;
 }
-body::before {
+.schedule .container:before {
     background: url(../images/himejijou4.png) no-repeat center;
     background-size: cover;
     content: "";
@@ -79,39 +99,47 @@ body::before {
     left: 0;
     z-index: -1;
   }
-
-.schedule .bookmark_title{
-    font-size : 120%;
-    line-height : 1;
-    margin: 0 calc(50% - 50vw);
-    text-align: center;
-}
-
 /*部屋割り*/
-.hotel_room .container{
-    max-width:1000px;
-    margin:0px auto;
-    padding:15vh 20px;
-    border-top: 10px solid #414042;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../images/daiyamonndo.png);
-}
 
-.hotel_room .hotel{
+.schedule .hotel{
     font-size: 150%;
     position: relative;
-    margin-bottom: 10vh;
-    text-align: center;
+    margin-top: 15vh;
+    text-align: left;
     font-family: "Trebuchet MS";
-    border-bottom: 1px solid #414042;
-    padding-bottom: 3px;
-}
-.hotel_room .content{
-    text-align: center;
+    /* border-bottom: 1px solid #414042; */
+    /* padding-bottom: 3px; */
 }
 
-.hotel_room .select_room{
+.schedule .hotel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+	text-align: center;
+}
+
+.schedule .hotel::before,
+.schedule .hotel::after {
+	content: '';
+	width: 70px;
+	height: 3px;
+	background-color: black;
+}
+
+.schedule .hotel::before {
+	margin-right: 20px;
+}
+.schedule .hotel::after {
+	margin-left: 20px;
+}
+
+.schedule .content{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.schedule .select_room{
     width: 340px;
     height: 40px;
     position: relative;
@@ -122,9 +150,6 @@ body::before {
     border: solid black 2px;
     font-weight: 300;
 }
-
-
-
 #cards {
     display: flex;
     flex-flow: wrap;

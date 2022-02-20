@@ -36,7 +36,9 @@
                   </div>
                   
             <?php endwhile; ?>
-            <a class="c-more" href="another">以前のお知らせ</a>
+            <div class="text-center">
+            <a class="btn btn-info" href="another" role="button">以前のお知らせ</a>
+            </div>
         <?php
         else :
             echo '<p>お知らせはありません。</p>';

@@ -118,198 +118,195 @@
 
   <body>
     <!-- Swiper -->
-    
-    <div class="swiper mySwiper">
+
+    <div
+      style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+      class="swiper mySwiper"
+    >
       <div class="swiper-wrapper">
-      <div class="swiper-slide">
-            <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/main.png"
-            />
-          </div>
+        <div class="swiper-slide">
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/main.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-            <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/junbi.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/1.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-            <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/1.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/2.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/2.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/3.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/3.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/4.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/4.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/5.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/5.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/6.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/6.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/7.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/7.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/8.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/8.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/9.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/9.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/10.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/10.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/11.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/11.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/12.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/12.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/13.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/13.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/14.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/14.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/15.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/15.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/16.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/16.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/17.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/17.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/18.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/18.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/19.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/19.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/20.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/20.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/21.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/21.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/22.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/22.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/23.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
         <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/23.png"
-            />
-          </div>
+          <img
+            data-src="<?php echo get_template_directory_uri(); ?>/book/24.png"
+            class="swiper-lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
-        <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/24.png"
-            />
-          </div>
-        </div>
-      
+
+
+
       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
-      <div class="swiper-scrollbar"></div>
       <div class="swiper-pagination"></div>
-    
+    </div>
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -317,50 +314,19 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        lazy: true,
-        centeredSlides: false,
-        slidesPerGroupSkip: 1,
-        grabCursor: true,
-        keyboard: {
-          enabled: true,
+        lazy: {
+        loadPrevNext: true,
         },
-        breakpoints: {
-          769: {
-            slidesPerView: 2,
-            slidesPerGroup: 2,
-          },
-        },
-        scrollbar: {
-          el: ".swiper-scrollbar",
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        on: {
-        init: function () {
-          /*初期処理*/
-          var li = $("#p2 li");
-          li.removeClass("act1");
-          li.eq(p2[ss_array[0]]).addClass("act1");
-        },
-        slideChangeTransitionStart: function () {
-          /*スライダーが変更されたときの処理*/
-          var act = this;
-          var index = act.activeIndex;
-          var li = $("#p2 li");
-          li.removeClass("act1");
-          li.eq(p2[ss_array[index]]).addClass("act1");
-        }
-      }
       });
     </script>
-  </div>
 </section>
       
 <section class="movie">

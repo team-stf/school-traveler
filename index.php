@@ -353,6 +353,7 @@
     
 
 </section>
+
 <div class="button"><a class="btn-font" href="book">拡大表示</a></div>
 <section class="movie">
         <iframe class="douga" width="560s" height="315" src="https://www.youtube.com/embed/wmK514c0KzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

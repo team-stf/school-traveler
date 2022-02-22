@@ -41,7 +41,7 @@ body {
     margin-left: auto;
  }
   
- href="<?php echo esc_url( home_url( '/' ) ); ?>"
+
 /*動画*/
 .movie iframe{
     width: 100%;

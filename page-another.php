@@ -36,20 +36,20 @@
         }
 
         .button{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 1em 2em;
-    width: 100%;
-    background-color: #333;
-  }
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 0 auto;
+         padding: 1em 2em;
+         width: 100%;
+         background-color: #333;
+      }
 
- .button .btn-font{
-    color: white;
-    margin-right: auto;
-    margin-left: auto;
- }
+      .button .btn-font{
+         color: white;
+         margin-right: auto;
+         margin-left: auto;
+      }
 
 
       </style>
@@ -76,4 +76,4 @@ foreach( $myposts as $post ) {
 }
 wp_reset_postdata();
 ?>
-<div class="button"><a class="btn" href="<?php echo esc_url( home_url( '/' ) ); ?>">ホームに戻る</a></div>
+<div class="button"><a class="btn-font" href="<?php echo esc_url( home_url( '/' ) ); ?>">ホームに戻る</a></div>

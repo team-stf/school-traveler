@@ -3,12 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>チームを選択</title>
+    <title>班を選択</title>
 </head>
 <style>
-    
+    body{
+        /* text-align: center; */
+    }
+    img{
+        width: 40%;
+        position: relative;
+        top: 10vh;    
+    }
+    .button01 {
+    display: flex;
+    align-items: center;
+    width: 10vh;
+    height: 10vh;
+    background-color: transparent;
+    border-radius: 10vh;
+    border: 2px solid #414042;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+    .button01 .btn-font{
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+
+
+ .contents1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 14vh;
+ }
+
+ .contents2 h1{
+     text-align: center;
+     font-size: 25px;
+ }
+
+ .contents2 p{
+     text-align: center;
+     font-size: 15px;
+ }
+
+ li {
+  display: inline-block;
+  padding: 8px;
+  margin-right: auto;
+  margin-left: auto;
+}
 </style>
+
 <body>
-    
+    <div style="text-align: center;">
+        <img class="logo-m" src="images/meiden-logo-main.png"></p>
+    </div>
+
+    <div class="contents1">
+        <div class="button01">
+            <a href="https://first.meiden-travel.jp/" class="btn-font" href="">1班</a>
+        </div>
+
+        <div class="button01">
+            <a class="btn-font" href="">2班</a>
+        </div>
+    </div>
+
+    <div class="contents2">
+        <h1>持ち物リスト</h1>
+        <form>
+            <fieldset>
+                <p>必要なもの</p>
+                <ul>
+                    <li>
+                      <input type="checkbox" id="check1" name="group1"><label for="check1">バスタオル</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="check2" name="group1"><label for="check2">常備薬</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="check3" name="group1"><label for="check3">洗面用具</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="check4" name="group1"><label for="check4">筆記用具</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="check5" name="group1"><label for="check5">雨具</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="check6" name="group1"><label for="check6">現金</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="check7" name="group1"><label for="check7">生徒手帳</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="check8" name="group1"><label for="check8">着替え</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="check9" name="group1s"><label for="check9">防寒具</label>
+                      </li>
+                  </ul>
+                  <p>あると便利なもの</p>
+                  <ul>
+                    <li>
+                      <input type="checkbox" id="check1" name="group1"><label for="check1">衣服圧縮袋</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="check2" name="group1"><label for="check2">常備薬</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="check3" name="group1"><label for="check3">洗面用具</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" id="check4" name="group1"><label for="check4">筆記用具</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="check5" name="group1"><label for="check5">雨具</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="check6" name="group1"><label for="check6">現金</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="check7" name="group1"><label for="check7">生徒手帳</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="check8" name="group1"><label for="check8">着替え</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" id="check9" name="group1s"><label for="check9">防寒具</label>
+                      </li>
+                  </ul>
+            </fieldset>
+          </form>
+    </div>
+
 </body>
 </html>

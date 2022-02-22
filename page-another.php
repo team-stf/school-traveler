@@ -35,6 +35,22 @@
             color: blue;
         }
 
+        .button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 100%;
+    background-color: #333;
+  }
+
+ .button .btn-font{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
 
       </style>
 <?php
@@ -60,4 +76,4 @@ foreach( $myposts as $post ) {
 }
 wp_reset_postdata();
 ?>
-<div class="maxview"><a class="btn btn-primary w-100 mt-2" href="<?php echo esc_url( home_url( '/' ) ); ?>" role="button">ホームに戻る</a></div>
+<div class="button"><a class="btn" href="<?php echo esc_url( home_url( '/' ) ); ?>">ホームに戻る</a></div>

@@ -67,12 +67,12 @@
     });
   });
   </script>
-   <script type="text/javascript">
+   <!-- <script type="text/javascript">
    $(function() {
        var height=$("#header").height();
        $("body").css("margin-top", height + 80);//10pxだけ余裕をもたせる
    });
-   </script>
+   </script> -->
 
 
    <!-- <script>
@@ -111,6 +111,6 @@ $(function () {
    <?php wp_head(); ?>
 </head>
 
-<header style="z-index: 100;">
+<header style="z-index: 100;">   
    <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-seikou.svg"></a>
 </header>

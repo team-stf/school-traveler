@@ -25,7 +25,23 @@ body {
     border-top: 10px solid #414042;
     background-image: white;
 }
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 100%;
+    background-color: #333;
+  }
 
+ .button .btn-font{
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+ }
+  
+ href="<?php echo esc_url( home_url( '/' ) ); ?>"
 /*動画*/
 .movie iframe{
     width: 100%;
@@ -212,6 +228,12 @@ body {
     font-size: 6px;
     margin: 0;
     padding: 20px 0 0 0;
+   }
+   .footer02 .han{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    margin: 1vh;
    }
 
 /*アナウンス*/

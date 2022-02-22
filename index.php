@@ -21,7 +21,7 @@
     <div class="containe-fluid">
       <div class="main">
       <div style="background-color: white;" class="announce">
-      <h1 style="text-align: center;">お知らせ</h1>
+      <!-- <h1 style="text-align: center;">お知らせ</h1> -->
       <hr>
       <?php
           query_posts('posts_per_page=1'); ?>
@@ -224,20 +224,20 @@
           />
           <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
-        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
           <img
             data-src="<?php echo get_template_directory_uri(); ?>/book/12.png"
             class="swiper-lazy"
           />
           <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-        </div>
-        <div class="swiper-slide">
+        </div> -->
+        <!-- <div class="swiper-slide">
           <img
             data-src="<?php echo get_template_directory_uri(); ?>/book/13.png"
             class="swiper-lazy"
           />
           <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-        </div>
+        </div> -->
         <div class="swiper-slide">
           <img
             data-src="<?php echo get_template_directory_uri(); ?>/book/14.png"
@@ -353,7 +353,7 @@
     
 
 </section>
-<div class="maxview"><a class="btn btn-secondary w-100 mt-2" href="book" role="button">拡大表示</a></div>
+<div class="button"><a class="btn-font" href="book">拡大表示</a></div>
 <section class="movie">
         <iframe class="douga" width="560s" height="315" src="https://www.youtube.com/embed/wmK514c0KzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>

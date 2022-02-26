@@ -1,0 +1,19 @@
+body {
+    padding-top: 50px;
+    background-color: lightgray;
+    letter-spacing:0em;
+}
+
+.main {
+    padding: 40px 15px;
+    background-color: white;
+}
+p{
+    margin-bottom: 0rem;
+    font-size:1.2rem;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 750px;
+}

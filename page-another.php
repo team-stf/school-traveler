@@ -58,6 +58,8 @@ global $post;
 $args = array( 'posts_per_page' => 100 );
 $myposts = get_posts( $args );
 ?>
+<br>
+<br>
 <h1>全てのお知らせ</h1>
 <?php
 foreach( $myposts as $post ) {

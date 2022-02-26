@@ -94,6 +94,13 @@
         <div class="swiper-slide">
             <div class="swiper-zoom-container">
             <img
+              src="<?php echo get_template_directory_uri(); ?>/book/main.png"
+            />
+          </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-zoom-container">
+            <img
               src="<?php echo get_template_directory_uri(); ?>/book/1.png"
             />
           </div>

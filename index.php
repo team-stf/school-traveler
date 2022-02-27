@@ -283,7 +283,7 @@
 
 </section>
 
-<div class="button"><a class="btn-font" href="book">拡大表示</a></div>
+<a class="button" href="book"><div class="btn-font">拡大表示</div></a>
 <section class="movie">
 <iframe title="douga" width="560s" height="315" src="https://player.vimeo.com/video/653105098?h=eb9e6ec615" frameborder="0" allowfullscreen></iframe>
 </section>

@@ -60,6 +60,7 @@ $myposts = get_posts( $args );
 ?>
 <br>
 <br>
+<br>
 <h1>全てのお知らせ</h1>
 <?php
 foreach( $myposts as $post ) {
@@ -78,4 +79,4 @@ foreach( $myposts as $post ) {
 }
 wp_reset_postdata();
 ?>
-<div class="button"><a class="btn-font" href="<?php echo esc_url( home_url( '/' ) ); ?>">ホームに戻る</a></div>
+<a class="button" href="<?php echo esc_url( home_url( '/' ) ); ?>"><div class="btn-font">ホームに戻る</div></a>

@@ -270,9 +270,9 @@
 </section>
 
 <a class="button" href="book"><div class="btn-font">拡大表示</div></a>
-<section class="movie">
+<!-- <section class="movie">
 <iframe title="douga" width="560s" height="315" src="https://player.vimeo.com/video/653105098?h=eb9e6ec615" frameborder="0" allowfullscreen></iframe>
-</section>
+</section> -->
 
 <div id="loader-bg">
   <div class="loading-animation">
@@ -349,7 +349,7 @@ $(window).on('load', function(){
                     <article>
                       <div class="events">
                           <div class="event">
-                            <p class="time">9:??</p>
+                            <p class="time">08:20</p>
                             <p class="name">集合: 名古屋駅</p>
                           </div>
                         
@@ -610,21 +610,10 @@ $(window).on('load', function(){
           <option value="room/g2b">G2B</option>
           <option value="room/g2c">G2C</option>
           <option value="room/g2d">G2D</option>
-          <option value="room/g2e">G2E</option>
-          <option value="room/g2f">G2F</option>
-          <option value="room/g2g">G2G</option>
           <option value="room/g2h">G2H</option>
           <option value="room/g2i">G2I</option>
           <option value="room/g2j">G2J</option>
           <option value="room/g2k">G2K</option>
-      </optgroup>
-      <optgroup label="専門科">
-        <option value="room/t2a">T2A</option>
-        <option value="room/t2b">T2B</option>
-        <option value="room/t2c">T2C</option>
-        <option value="room/t2d">T2D</option>
-        <option value="room/t2e">T2E</option>
-        <option value="room/j2a">J2A</option>
       </optgroup>
   </select>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>

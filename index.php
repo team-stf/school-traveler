@@ -127,20 +127,6 @@
         </div>
         <div class="swiper-slide">
           <img
-            data-src="<?php echo get_template_directory_uri(); ?>/book/8.png"
-            class="swiper-lazy"
-          />
-          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-        </div>
-        <div class="swiper-slide">
-          <img
-            data-src="<?php echo get_template_directory_uri(); ?>/book/9.png"
-            class="swiper-lazy"
-          />
-          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-        </div>
-        <div class="swiper-slide">
-          <img
             data-src="<?php echo get_template_directory_uri(); ?>/book/10.png"
             class="swiper-lazy"
           />

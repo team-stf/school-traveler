@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/cradit.css">
 </head>
-<body style="background: url(../images/rocketfuckkato.png) no-repeat center;" >
+<body>
     <div class="amidc-logo">
         <img src="<?php echo get_template_directory_uri(); ?>/images/amidc1.svg">
     </div>

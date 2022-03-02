@@ -284,9 +284,9 @@
 </section>
 
 <a class="button" href="book"><div class="btn-font">拡大表示</div></a>
-<section class="movie">
+<!-- <section class="movie">
 <iframe title="douga" width="560s" height="315" src="https://player.vimeo.com/video/653105098?h=eb9e6ec615" frameborder="0" allowfullscreen></iframe>
-</section>
+</section> -->
 
 <div id="loader-bg">
   <div class="loading-animation">

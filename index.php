@@ -230,13 +230,6 @@
           />
           <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
         </div>
-        <div class="swiper-slide">
-          <img
-            data-src="<?php echo get_template_directory_uri(); ?>/book/junbi.png"
-            class="swiper-lazy"
-          />
-          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-        </div>
 
 
 

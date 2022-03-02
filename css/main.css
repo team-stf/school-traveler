@@ -192,49 +192,94 @@ body {
     color: #414042;
 }
 
-/*フッター*/
-.footer02 {
-    color: black;
-    background: black;
-    text-align: center;
-    padding: 30px;
-   }
-   .footer02 img{
-       width: 40%;
-       padding: 3px;
-   }
-   .footer02 a {
-    color: whtie;
-    text-decoration: none;
-   }
-   .footer02 a:hover {
-    text-decoration: underline;
-   }
-   .footer02 .menu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   }
-   .footer02 .menu li {
-    font-size: 12px;
-    margin: 0;
-    padding: 0 10px;
-   }
-   .footer02 .copyright {
-    color: white;
-    font-size: 6px;
-    margin: 0;
-    padding: 20px 0 0 0;
-   }
-   .footer02 .han{
-    position: relative;
-    color: white;
-    font-size: 15px;
-    margin: 1vh;
-   }
+/*フッター PC*/
+    .footer02 {
+        color: black;
+        background: black;
+        text-align: center;
+        padding: 30px;
+    }
+    .footer02 img{
+        width: 13%;
+        padding: 3px;
+    }
+    .footer02 a {
+        color: whtie;
+        text-decoration: none;
+    }
+    .footer02 a:hover {
+        text-decoration: underline;
+    }
+    .footer02 .menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer02 .menu li {
+        font-size: 12px;
+        margin: 0;
+        padding: 0 10px;
+    }
+    .footer02 .copyright {
+        color: white;
+        font-size: 6px;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+    .footer02 .han{
+        position: relative;
+        color: white;
+        font-size: 15px;
+        margin: 1vh;
+    }
+/*フッター スマホ*/
+@media (max-width:768px) {
+    .footer02 {
+        color: black;
+        background: black;
+        text-align: center;
+        padding: 30px;
+    }
+    .footer02 img{
+        width: 40%;
+        padding: 3px;
+    }
+    .footer02 a {
+        color: whtie;
+        text-decoration: none;
+    }
+    .footer02 a:hover {
+        text-decoration: underline;
+    }
+    .footer02 .menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer02 .menu li {
+        font-size: 12px;
+        margin: 0;
+        padding: 0 10px;
+    }
+    .footer02 .copyright {
+        color: white;
+        font-size: 6px;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+    .footer02 .han{
+        position: relative;
+        color: white;
+        font-size: 15px;
+        margin: 1vh;
+    }
+}
 
 /*アナウンス*/
 .announce{

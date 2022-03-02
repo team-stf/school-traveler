@@ -150,20 +150,6 @@
         <div class="swiper-slide">
           <div class="swiper-zoom-container">
             <img
-              src="<?php echo get_template_directory_uri(); ?>/book/8.png"
-            />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
-              src="<?php echo get_template_directory_uri(); ?>/book/9.png"
-            />
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="swiper-zoom-container">
-            <img
               src="<?php echo get_template_directory_uri(); ?>/book/10.png"
             />
           </div>

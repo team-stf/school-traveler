@@ -67,20 +67,20 @@
     });
   });
   </script>
-   <!-- <script type="text/javascript">
+   <script type="text/javascript">
    $(function() {
        var height=$("#header").height();
        $("body").css("margin-top", height + 80);//10pxだけ余裕をもたせる
    });
-   </script> -->
+   </script>
 
 
-   <!-- <script>
+   <script>
       $(window).on('load',function(){
  $("#loader-bg").delay(1000).fadeOut('slow');
  //ローディング画面を3秒（3000ms）待機してからフェードアウト
 });
-   </script> -->
+   </script>
 
    <script>
 $(function () {

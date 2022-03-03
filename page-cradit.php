@@ -42,7 +42,7 @@
             <div class="text2">渦潮</div>
             <div class="text3">Kentaro / Kazutaka / Kotone</div>
             <div class="text2">鷲羽山</div>
-            <div class="text3">Kazutaka / Kotone</div>
+            <div class="text3">Kazutaka / Kotone　/ Kentaro</div>
             <div class="text2">部屋割り</div>
             <div class="text3">Kokona / Haruka</div>
             <div class="text2">大塚国際美術館</div>

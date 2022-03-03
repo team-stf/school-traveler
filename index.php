@@ -363,7 +363,7 @@ $(window).on('load', function(){
                     <article>
                       <div class="events">
                           <div class="event">
-                            <p class="time">08:20</p>
+                            <p class="time">08:30</p>
                             <p class="name">集合: 名古屋駅</p>
                           </div>
                         

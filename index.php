@@ -284,9 +284,9 @@
 </section>
 
 <a class="button" href="book"><div class="btn-font">拡大表示</div></a>
-<!-- <section class="movie">
-<iframe title="douga" width="560s" height="315" src="https://player.vimeo.com/video/653105098?h=eb9e6ec615" frameborder="0" allowfullscreen></iframe>
-</section> -->
+<section class="movie">
+      <video controls style="width: 100%;"><source src="<?php echo get_template_directory_uri(); ?>/images/制作.mp4"</video>
+</section>
 
 <div id="loader-bg">
   <div class="loading-animation">

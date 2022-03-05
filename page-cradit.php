@@ -38,7 +38,7 @@
             <div class="text2">北淡路震災記念公園</div>
             <div class="text3">Taiyou / Taisei</div>
             <div class="text2">金刀比羅宮</div>
-            <div class="text3">Koudai / yamato</div>
+            <div class="text3">Koudai / Yamato</div>
             <div class="text2">渦潮</div>
             <div class="text3">Kentaro / Kazutaka / Kotone</div>
             <div class="text2">鷲羽山</div>

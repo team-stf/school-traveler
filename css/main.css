@@ -47,6 +47,44 @@ body {
     width: 100%;
 }
 
+.movie{
+    text-align: center;
+}
+.movie video{
+    width: 80%;
+    border-radius: 19px;
+}
+.movie .movie_title{
+    font-size: 130%;
+    position: relative;
+    margin: 7vh;
+    margin-top: 7vh;
+    text-align: center;
+    font-family: "Trebuchet MS";
+}
+
+.movie .movie_title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	text-align: center;
+}
+
+.movie .movie_title::before,
+.movie .movie_title::after {
+	content: '';
+	width: 70px;
+	height: 3px;
+	background-color: black;
+}
+
+.movie .movie_title::before {
+	margin-right: 20px;
+}
+.movie .movie_title::after {
+	margin-left: 20px;
+}
 /*スケジュール*/
 .schedule{
     width:100%;

@@ -264,7 +264,8 @@
 
 <a class="button" href="book"><div class="btn-font">拡大表示</div></a>
 <section class="movie">
-      <video controls style="width: 100%;"><source src="<?php echo get_template_directory_uri(); ?>/images/制作.mp4"</video>
+      <h1 class="movie_title">MOVIE</h1>
+      <video controls><source src="<?php echo get_template_directory_uri(); ?>/images/制作.mp4"</video>
 </section>
 
 <div id="loader-bg">

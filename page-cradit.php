@@ -34,9 +34,9 @@
             <div class="text2">持ち物リスト</div>
             <div class="text3">Yusuke</div>
             <div class="text2">姫路城</div>
-            <div class="text3">Kudai</div>
+            <div class="text3">Kodai</div>
             <div class="text2">北淡路震災記念公園</div>
-            <div class="text3">Taiyou / Taisei</div>
+            <div class="text3">Taiyou / Taisei / Yuto</div>
             <div class="text2">金刀比羅宮</div>
             <div class="text3">Koudai / Yamato</div>
             <div class="text2">渦潮</div>

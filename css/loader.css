@@ -28,7 +28,7 @@
 #loader-bg .logo-load{
     width: 40%;
     position: relative;
-    top: 31vh;    
+    top: 25vh;    
 }
 /*ここからコピーしてきたCSSになりますが、loader-bgで囲っているので先頭に#loader-bgを付け足しています*/
 #loader-bg .bouncingLoader {    

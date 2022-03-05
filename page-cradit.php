@@ -38,7 +38,7 @@
             <div class="text2">北淡路震災記念公園</div>
             <div class="text3">Taiyou / Taisei</div>
             <div class="text2">金刀比羅宮</div>
-            <div class="text3">Koudai</div>
+            <div class="text3">Koudai / yamato</div>
             <div class="text2">渦潮</div>
             <div class="text3">Kentaro / Kazutaka / Kotone</div>
             <div class="text2">鷲羽山</div>
@@ -49,8 +49,6 @@
             <div class="text3">Shoutaro / Sousi</div>
             <div class="text2">倉敷美観地区</div>
             <div class="text3">Sari / Yusa / Haruka</div>
-            <div class="text2">大塚国際美術館</div>
-            <div class="text3">Shoutaro / Sousi</div>
             <div class="text2">修学旅行方言集</div>
             <div class="text3">Kurumi / Mei</div>
             <div class="text2">SPECIAL THANKS</div>

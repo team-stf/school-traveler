@@ -291,8 +291,7 @@
 
 <div id="loader-bg">
   <div class="loading-animation">
-    <p style="margin-bottom: 10px;" class="power">Created by</p>
-    <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/w-amidc.png"></p>
+    <img class="logo-load" src="<?php echo get_template_directory_uri(); ?>/images/meiden_logo.png"></p>
     <div class="bouncingLoader"><div></div></div>
   </div>
 </div>
